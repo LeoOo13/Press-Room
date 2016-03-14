@@ -1,0 +1,1002 @@
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+.menu-title{
+    font-family: 'gotham_mediumregular';
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px;
+    font-size: 9pt;
+    position: relative;
+    margin-bottom: 0;
+    margin-right: -15px;
+    width: 60px;
+    float: right;
+    height: 0;
+    padding-top: 40px;
+    padding-bottom: 0;
+    line-height: 3;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 2;
+    background: #1c7383;
+    -webkit-user-select: none;
+}
+.menu-title::after{
+    content: "\e259";
+    display: block;
+    font-family: 'Glyphicons Halflings';
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px;
+    width: 100%;
+    height: 40px;
+}
+
+@media (max-width: 767px){
+    #zoom-area{
+        height: 400px;
+    }
+    .section{
+        margin-bottom: 20px;
+    }
+    .section-heading ~ *,
+    .section .container-fluid .block-960 ~ *{
+        margin-top: 20px;
+    }
+    .section.map-vidanta{
+        margin-bottom: 30px;
+    }
+    .carousel.main.slide{
+        margin-bottom: 0;
+    }
+    .carousel.main .carousel-caption{
+        top: 50%;
+    }
+    .bg-blue .section-heading, 
+    .bg-gray .section-heading{
+        margin-top: 0;
+    }
+    .download-map-logo {
+        display: none;
+    }
+    .collapsable-xs{
+        margin: 0;
+        padding: 0;
+    }
+    .navbar-default.section-nav .navbar-nav{
+        display: block;
+        background: #1c7383;
+        padding: 0;
+        margin-left: -15px;
+        margin-right: -15px;
+        clear: right;
+    }
+    .navbar-default.section-nav .open + .navbar-nav{
+        padding: 20px 0;
+    }
+    .navbar-default.section-nav .navbar-nav li{
+        display: block;
+        width: 50%;
+        float: left;
+    }
+
+    .navbar-default.section-nav .navbar-nav li.active > a{
+      background-color: transparent;
+    }
+    .new-nav .main-item{
+        height: 40px;
+        top: 0;
+        width: 100%!important;
+        max-width: none;
+        background: #19a2be;
+    }
+    .new-nav .container-fluid{
+        padding-left: 0;
+    }
+    .navbar-default.section-nav .navbar-nav li:first-child{
+        display: none
+    }
+    .navbar-default.section-nav .navbar-nav li:nth-child(2n+1){
+        border-left: 1px solid #fff;
+    }
+
+    .navbar-default.section-nav{
+    }
+    .no-gutter .col-md-6{
+        margin-bottom: 1em;
+        text-align: center;
+    }
+    .no-gutter .col-md-6 img{
+        display: inline;
+    }
+    [class^="col-sm"]{
+        margin-bottom: 1em;
+    }
+    .destinations .destinations-slide .destination-slide-content{
+        display: block!important;
+    }
+
+    .weddings-features .col-sm-5{
+        margin-bottom:15px;		    
+    }
+
+    .weddings-features .row img{
+        width:100%;
+    }
+
+    .tab-pane .col-sm-5 , .tab-pane .col-sm-6 {
+        text-align: center;
+    }
+
+    .map-vidanta .col-sm-4 {
+        margin-bottom:20px;
+    }
+    #map-hight{
+        height:400px; }
+
+
+    .hotels-and-resorts-tabs .nav-tabs.nav-justified>li>a {
+        border:none;	
+        background: none;
+        color: #fff;
+        font-family: 'gotham_lightregular';
+        font-size: 11pt;}	 
+
+    .destinations-features .container-fluid {
+        padding: 0px 25px;
+    }
+
+    .destinations-features .row img{
+        margin-bottom:15px; }	
+
+    .slider-dining .container-fluid { text-align:center;}
+    #myCarousel-dinning .carousel-inner .active.left { left: -100%; }
+    #myCarousel-dinning .carousel-inner .next        { left:  100%; }
+    #myCarousel-dinning .carousel-inner .prev		 { left: -100%; }
+    #myCarousel-dinning .active > div { display:none; }
+    #myCarousel-dinning .active > div:first-child { display:block; }
+    .slider-dining .carousel-control.right { right: 10px; font-size: 35px; }
+    .slider-dining .carousel-control.left { left: 10px; font-size: 35px;}
+    #myCarousel-dinning .carousel-inner{ padding: 0px 25%;}
+
+    .entertainment .col-sm-6 {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    /*.center-feature{ 
+        /*text-align:center;
+        margin-bottom:20px;}*/
+
+    .tabs-features .nav-tabs.nav-justified>li {
+        width: 32.14%;
+        font-size: 12px;
+        display: inline-block;
+        margin-bottom: -3px;
+        margin-top: -1px;
+    }
+
+    .tabs-features .nav-tabs.nav-justified>li>a:hover,.tabs-features .nav-tabs.nav-justified>li>a:focus{ background:none;}
+    .tabs-features .nav-tabs.nav-justified>.active>a, tabs-features .nav-tabs.nav-justified>.active>a:focus,  tabs-features .nav-tabs.nav-justified>.active>a:hover {
+        border-top: 1px solid #1fa2be;
+        border-right: 1px solid #1fa2be;
+        border-left: 1px solid #1fa2be;
+        border-bottom:none;
+        border-radius:0px;
+        color: #1fa2be;
+    }
+
+    .tabs-features .tab-content .tab-pane {
+        padding-top: 25px;
+    }
+
+    #super-select-tab{display:none;}
+
+    .nav-tabs.nav-justified {
+        border-top: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        border-left: 1px solid #ccc;
+        border-bottom: 1px solid #1fa2be;
+
+    }
+
+
+    .row.zoom-map{
+        height:180px;
+    }
+
+    .section.hotels-and-resorts-tabs #tab-content-hotel {
+        display:none;
+    }
+
+    #hotel-tab-mobile{ display:block;}
+
+    .section.hotels-and-resorts-tabs p.description.bottom{
+        margin-top:45px;
+    } 
+    .section-heading h1:only-child,
+    .section-heading.line-heading h1:only-child{
+        font-size: 20pt;
+    }
+    .section-heading.line-heading h1{
+        font-size: 20pt;
+    } 
+
+
+    .slider-wrap-din {
+        margin: 15px auto;
+        width: 320px;
+    }
+
+    .suscribe-newsletter input[type="text"]{
+        width: 190px;
+    }
+    .suscribe-newsletter .input-group-addon, 
+    .suscribe-newsletter .input-group-btn{
+        display: inline;
+    }
+    /* navbar-header */
+    .navbar-header:before{
+        content: "";
+        position: absolute;
+        display: block;
+        height: 100%;
+        width: 100%;
+        max-height: 78px;
+        top: 0;
+        left: 160px;
+        background: #000;
+        border-top: 30px solid #2c2c2c;
+    }
+    /*.section{
+        margin-bottom: 2em;
+    }
+    .section.bg-gray{
+        padding-top: 2em;
+    }*/
+    /* END MAX-WIDTH:767PX */
+    .global-destinations-map .list-group{
+        margin-top: 0;
+        padding-left: 0;
+        border-left: 0;
+    }
+
+    #carousel-difference .tab-content > .tab-pane{
+        display: block;
+        visibility: visible;
+    }
+    #carousel-earth .tab-content > .tab-pane{
+        display: block;
+        visibility: visible;
+    }
+    #carousel-earth .tab-content ul{
+        margin-left: 15px;
+    }
+
+    .news-article-title p{
+        font-size: 14pt;
+    }
+
+}
+
+
+@media (max-width: 767px){
+
+    .carousel.middle
+    .carousel-caption 
+    .caption-description{
+        font-size: 2.0em;
+        line-height: normal;
+    }
+    #wrapper #content .row > [class *= "col-"],
+    #wrapper #content .article-row > [class *= "col-"]{
+        width: 100%;
+        margin-left: 0px;
+    }
+    #wrapper #content .weddings-features .row{
+        text-align: initial;
+    }
+
+    .submenu-wrapper{
+        margin-top: 15px;
+    }
+
+}
+
+
+@media (max-width: 450px){
+
+    .carousel.middle
+    .carousel-caption 
+    .caption-description{
+        font-size: 1.3em;
+    }
+
+
+    .carousel-caption .caption-title > span{
+        font-size: 15px;
+    }
+    .section.suscribe-newsletter .container-fluid{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+@media (max-width: 420px){
+    .select-combo input {
+        max-width: 198px;
+        font-size: 11pt;
+    }    
+    #zoom-area{
+        max-height: 320px;
+    }
+}
+@media (max-width: 350px){
+
+    .carousel.middle
+    .carousel-caption 
+    .caption-description{
+        font-size: 1.35em;
+    }
+
+    .carousel-caption .caption-title{
+        margin-bottom: 0;
+    }
+    .carousel-caption .caption-title > span{
+        font-size: 15px;
+    }
+
+    .carousel.middle .carousel-caption .caption-bottom-title{
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+    #column-1 .vidanta-link.green {
+       margin-left:-15px;
+       margin-right:-15px;
+       padding: -15px;
+    }
+    #zoom-area{
+        max-height: 275px;
+    }
+
+}
+
+
+@media (min-width: 450px) and (max-width: 630px){
+
+    .carousel.middle
+    .carousel-caption 
+    .caption-description{
+        font-size: 1.5em;
+        line-height: normal;
+    }
+
+    .carousel.middle .carousel-caption .caption-bottom-title{
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+
+
+}
+
+@media (min-width:780px) and (max-width:889px){  
+   #column-1 .vidanta-link.green {
+       margin-left:5px;
+       margin-right:0px;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .capsule-heading h1{
+        font-size: 1.5em;
+    }
+
+    .navbar-wrapper .navbar-inverse .navbar-nav > li > a{
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 8pt;
+        letter-spacing: 0px;
+    }
+    .navbar-wrapper .navbar-nav > li.my-vida > a{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .navbar-wrapper .navbar-right.navbar-text{
+        margin-right: 0;
+    }
+    .suscribe-newsletter .form-inline .form-group:first-child{
+        width: 100%;
+    }
+
+    /*.tab-pane .col-sm-5 {
+        width: 50%;
+    }*/
+
+    .tabs-features .nav-tabs.nav-justified>li {
+        width: 32%;
+        font-size: 12px;
+        display: inline-block;
+        margin-bottom: 0px;
+    }
+
+    .map-vidanta .col-sm-4 {
+        padding-left:30px;
+    }
+
+    .highlights li { margin:0px;}
+
+    #myCarousel-dinning .carousel-inner .active.left { left: -50%; }
+    #myCarousel-dinning .carousel-inner .next        { left:  50%; }
+    #myCarousel-dinning .carousel-inner .prev		 { left: -50%; }
+    #myCarousel-dinning .active > div { display:none; }
+    #myCarousel-dinning .active > div:first-child { display:block; }
+    #myCarousel-dinning .active > div:first-child { display:inline-block; }
+    #myCarousel-dinning .carousel-inner{ padding: 0px 26%;}
+    .slider-dining .carousel-control.right { right: 25%; font-size: 35px; }
+    .slider-dining .carousel-control.left { left: 25%; font-size: 35px;}
+
+    .entertainment .col-sm-6 {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    #carousel-difference h2{
+    padding-top: 0px;
+    margin-top: 0px
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    #super-select-tab-2{
+        margin-top: -1px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 900px){
+
+.carousel.middle
+.carousel-caption 
+.caption-description{
+    font-size: 1.8em;
+    line-height: normal;
+}
+
+}
+
+@media(min-width:300px) and (max-width:400px) {
+  .experience-grid .experience-grid-label {
+    color:white;  
+    font-size: 14px;  
+   }
+}
+
+@media (min-width: 480px){
+
+    .destinations-features .container-fluid {
+        padding: 0px 15px;
+    }
+}
+
+@media (min-width: 901px){
+
+    .carousel.middle
+    .carousel-caption 
+    .caption-description{
+        font-size: 2.2em;
+        line-height:normal;
+    }
+
+}
+
+@media (min-width: 768px){
+    .map-vidanta .zoom_image{
+        margin-top: -20%;
+    }
+    .map-vidanta.hight .zoom_image{
+        margin-top: 0px;
+    }
+    .navbar-default.section-nav{
+        margin-top: -30px;
+    }
+    .article-rows .article-row .description-link {
+        padding-bottom: 20px;
+    }
+    .title{
+        color: #3d3d3d;
+    }
+    .title:hover{
+        text-decoration: none;
+    }
+    .section .container-fluid{
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+    .navbar-wrapper .navbar-main-wrapper{
+        height: 47px;
+        background-color: #000;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .navbar-wrapper .navbar-top-wrapper .navbar-nav{
+        margin-right: 150px;
+    }
+    .navbar-wrapper .navbar-main-wrapper .navbar-nav{
+        margin-right: 0px;
+    }
+    .navbar-wrapper .navbar-nav > li.my-vida > a{
+        font-family: 'gotham_mediumregular';
+        background-color: #2c2c2c;
+        border-top: 1px solid #666;
+        border-left: 1px solid #666;
+        color: #999;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-transform: none;
+    }
+    .navbar-wrapper .navbar-nav > li.my-vida .dropdown-menu{
+        padding: 15px 30px 10px;
+        min-width: 580px;
+        font-size: 16px;
+        background-color: #222;
+        color: #fff;
+        opacity: 0.8;
+    }
+    .navbar-wrapper .navbar-inverse .navbar-nav > li.my-vida > a:hover,
+    .navbar-wrapper .navbar-inverse .navbar-nav > li.my-vida > a:focus {
+        color: #fff;
+        background-color: #2c2c2c;
+    }
+    .navbar-wrapper .dropdown.images-submenu{
+        position: initial;
+    }
+    .navbar-wrapper .dropdown.images-submenu .dropdown-menu{
+        border-top: 0;
+        top: 100%;
+        right: 0;
+        left: 0;
+        max-width: 1366px;
+        margin-left: auto;
+        margin-right: 0;
+        padding: 3px;
+    }
+    .navbar-wrapper .dropdown.images-submenu .dropdown-menu > li{
+        float: left;
+        padding: 3px;
+        width: 25%;
+    }
+    .navbar-wrapper .dropdown.images-submenu .dropdown-menu > li > a{
+        position: relative;
+        background-color: #000;
+        padding: 0;
+    }
+    .navbar-wrapper .dropdown.images-submenu .dropdown-menu > li > a > img{
+        display: inline-block;
+        opacity: 0.6;
+        filter: alpha(opacity=60);
+        max-width: 100%;
+        width: 100%;
+    }
+    .navbar-wrapper .dropdown.images-submenu .dropdown-menu > li > a:hover > img{
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    .navbar-wrapper .dropdown.images-submenu .dropdown-menu > li > a > .title{
+        position: absolute;
+        color: #fff;
+        height: 20px;
+        top: 50%;
+        margin-top: -10px;
+        left: 0;
+        width: 100%;
+        font-size: 9pt;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .destinations .section-heading,
+    .capsule-heading{
+        border-right: 0;
+    }
+    .destinations .section-heading .map-marker,
+    .capsule-heading .map-marker{
+        width: 22px;
+        height: 38px;
+        margin-right: 8px;
+    }
+    .destinations .destinations-list,
+    .fixed .listslider-list{
+        width: 32%;
+    }
+    .destinations .destinations-slide{
+        position:absolute;
+        width: 68%;    
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        background-size: 130% 100%;
+        background-position: right top;
+    }
+    .destinations .destinations-list .list-group .list-group-item,
+    .listslider-list .list-group .list-group-item{
+        font-size: 9pt;
+        padding: 11px 10px;
+    }
+    .destinations .destinations-list .list-group .list-group-item .flecha,
+    .listslider-list .list-group .list-group-item .flecha{
+        /*height: 31px;*/
+    }
+    .destinations .destinations-slide .destination-slide-content{
+        position: absolute;
+        display: none;
+        width: auto;
+        top: auto;
+        right: 15px;
+        bottom: 15px;
+        left: 15px;
+        padding: 20px 15px 10px;
+        text-align: left; 
+    }
+    .destinations .destinations-slide .destination-slide-content .destination-description-title{
+        display: inline-block;
+    }
+    .destinations .destinations-slide .destination-slide-content .destination-description,
+    .destinations .destinations-slide .destination-slide-content .destination-description-link{
+        display: block;
+    }
+    .destinations .destinations-slide .destination-slide-content.active{
+        display: block;
+        padding-bottom: 15px;
+    }
+    .destinations .destinations-slide .destination-slide-content .destination-description-nav{
+        display: none;
+    }
+    .destinations .destinations-slide .destination-slide-content .destination-description{
+        padding: 0;
+        padding-bottom: 20px;
+        margin-bottom: 0;
+    }
+    .suscribe-newsletter .container-fluid{
+        padding: 0;
+    }
+    .suscribe-newsletter .form-group{
+        margin-left: 20px;
+    }
+    .site-map,
+    .reservations{
+        text-align: left;
+    }
+    .reservations .booking{
+        text-align: center;
+    }
+    .reservations .booking:before{
+        right: -40px;
+        left: auto;
+        border-top: 0;
+        border-left: 1px solid #3d3d3d;
+        height: 120px;
+    }
+    .reservations .booking h1{
+        font-size: 16pt;
+    }
+    .site-map .site-map-nav-title{
+        color: #fff!important;
+        cursor: default;
+    }
+    .site-map .nav{
+        display: block!important;
+    }
+    .footer-connect{
+        padding-right: 0;
+    }
+    .footer-connect .footer-connect-label{
+        font-size: 12pt;
+        display: inline-block;
+    }
+
+    /* tabs */
+    .nav-tabs.nav-justified{
+        padding: 0px 135px;
+        z-index: 1;
+        position: relative;
+    }
+
+    .nav-tabs.nav-justified>li {
+        display: table-cell;
+        width: auto;
+    }
+
+    .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {
+        border-radius:0px;
+        border: 1px solid #1fa2be;
+    }
+
+    .nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {
+        border-bottom-color: #fff;
+    }
+
+    .nav-tabs.nav-justified>li>a { 
+        border-radius:0px;
+        border-top: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        border-left:1px solid #ddd;
+        border-bottom:none;
+        font-size: 11.5pt;
+    } 
+
+    .hotels-and-resorts-tabs .nav-tabs.nav-justified>li>a {
+        border-radius: 0px;
+        border-top: 0px;
+        border-right: 0px;
+        border-left: 0px;
+    }
+
+    .hotels-and-resorts-tabs .nav-tabs.nav-justified>li>a {
+        border:none;	
+        background: none;
+        color: #fff;
+        font-family: 'gotham_lightregular';
+        font-size: 11pt;
+        padding-bottom: 25px;}
+
+    .hotels-and-resorts-tabs .nav-tabs.nav-justified>.active>a, .hotels-and-resorts-tabs .nav-tabs.nav-justified>.active>a:focus, .hotels-and-resorts-tabs .nav-tabs.nav-justified>.active>a:hover {
+        border-radius: 0px;
+        border:none;
+        z-index:3;
+        overflow:hidden;
+
+    }
+
+    .hotels-and-resorts-tabs .nav-tabs.nav-justified>li.active{
+        background:url(@theme_image_path@/custom/back-tabs.png) no-repeat center bottom;
+    }
+
+    .hotels-and-resorts-tabs .nav-tabs.nav-justified>.active>a span, .hotels-and-resorts-tabs .nav-tabs.nav-justified>.active>a:focus span, .hotels-and-resorts-tabs .nav-tabs.nav-justified>.active>a:hover span{
+        border-bottom:2px solid;	
+    }
+
+
+
+    .hotels-and-resorts-tabs .nav-tabs.nav-justified {
+        padding: 0px 0px;}
+
+    .hotels-and-resorts-tabs .col-sm-6 {
+        padding: 30px 5px; text-align:center;
+    }
+
+
+
+    .hotels-and-resorts-tabs .slide-tab{
+        padding:0px 40px;
+
+    }
+
+    .destinations-features .container-fluid {
+        padding: 0px 15px;
+    }
+
+    .slider-wrap-din {
+        margin: 15px auto;
+        width: 650px;
+    }	
+    #hotel-tab-mobile{ display:none;}
+
+    #carousel-earth .nav-tabs.nav-justified {
+        padding: 0px;
+    }
+    #carousel-earth .nav-tabs.nav-justified a{
+        font-size: 11.5pt;
+        padding: 10px 0px;
+        border-right: none;
+        border-left: none;
+    }
+    #carousel-earth .nav-tabs.nav-justified li{
+        width: 24%;
+        border-right: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+    }
+    #carousel-difference {
+        padding-bottom: 30px;
+    }
+    .bottom-branding ul li{
+        width: 14%;
+        float: left;
+        line-height: 70px;
+    }
+    .bottom-branding ul li:first-child{
+        width: 16%;
+        border-right: 1px solid #3d3d3d;
+    }
+    .bottom-branding ul li:first-child img{
+        max-width: 100%;
+    }
+    .bottom-branding ul li a{
+    	display: inline-block;
+    	vertical-align: middle;
+    }
+    .bottom-branding ul li:nth-child(2) img{
+        margin-top: 8%;
+    }
+    .bottom-branding ul li:nth-child(3) img{
+        margin-top: 3%;
+    }
+    .bottom-branding ul li:nth-child(4) img{
+        margin-bottom: 9%;
+    }
+    .bottom-branding ul li:nth-child(5) img{
+        margin-top: 2%;
+    }
+    .bottom-branding ul li:nth-child(6) img{
+        margin-top: 3%;
+    }
+    .bottom-branding ul li:nth-child(7) img{
+        margin-bottom: 1%; 
+    }
+}
+
+@media (min-width:890px){  
+   #column-1 .vidanta-link.green {
+       margin-left:0px;
+       margin-right:-20px;
+   }
+}
+
+@media (min-width: 992px) {
+    .navbar-wrapper .navbar-brand img {
+        max-width: 220px;
+    }
+    .navbar-wrapper .navbar-nav > li.my-vida > a{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .navbar-wrapper .navbar-right.navbar-text{
+        margin-right: 15px;
+    }
+    .destinations .destinations-list,
+    .fixed .listslider-list{
+        width: 30%;
+    }
+    .destinations .destinations-slide{
+        width: 70%;
+        background-size: 100% 100%;
+    }
+    /*.destinations .section-heading,*/
+    .capsule-heading{
+        font-size: 10pt;
+    }
+    .destinations .section-heading .map-marker
+    .capsule-heading .map-marker{
+        background-size: auto 100%;
+        height: 50px;
+        width: 36px;
+        margin-right: 15px;
+    }
+    .destinations .destinations-list .list-group .list-group-item,
+    .listslider-list-item{
+        font-size: 11pt;
+        padding: 10px 15px;
+        outline: 0px none;
+    }
+    .destinations .destinations-list .list-group .list-group-item .flecha,
+    .listslider-list-item .flecha{
+        height: 42px;
+        width: 22px;
+        top: -1px;
+        right: -22px;
+    }
+    .destinations .destinations-slide .destination-slide-content{
+        width: 55%;
+        bottom: 20px;
+        left: 20px;
+        right: auto;
+    }
+    .site-map{
+        width: 70%;
+        padding-left: 50px;
+    }
+    .reservations{
+        width: 30%;
+    }
+    .reservations .booking{
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    .reservations .booking:before{
+        left: 20px;
+        right: auto;
+        height: 280px;
+    }
+    .reservations .booking:after{
+        content: "";
+        position: absolute;
+        left: -10px;
+        top: 85px;
+        width: 280px;
+        border-top: 1px solid #3d3d3d;
+    }
+    .footer-connect .footer-connect-label{
+        font-size: 16pt;
+    }
+
+
+    .map-vidanta, 
+    .breads, 
+    .weddings-features, 
+    .tabs-features, 
+    .contact-vidanta, 
+    .destinations-features, 
+    .slider-dining{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 960px;
+    }
+    .hotels-and-resorts-tabs [role="tabpanel"]{
+        text-align: center;
+    }
+    .hotels-and-resorts-tabs .nav-tabs.nav-justified{
+        padding: 0px 135px;
+        width: auto;
+        display: inline-block;
+    }
+
+    .destinations-features .container-fluid {
+        padding: 0px 0px;
+    }
+    .destinations-features .container-fluid .col-sm-5{
+        padding-right: 6px;	
+    }
+
+    #myCarousel-dinning .carousel-inner .active.left { left: -25%; }
+    #myCarousel-dinning .carousel-inner .next        { left:  25%; }
+    #myCarousel-dinning .carousel-inner .prev		 { left: -25%; }	
+
+
+    .slider-wrap-din {
+        margin: 15px -50px;
+        width: 960px;
+    }	
+
+    /*a[href^="mailto"],a[href^="tel"]{
+        pointer-events: none;
+        cursor: default;
+    }*/
+
+}
+
+@media (min-width: 1367px) {
+
+    .destinations,
+    .container-medium{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1366px;
+    }
+
+    /* featureas and tabs */
+
+    .map-vidanta, 
+    .breads, 
+    .weddings-features, 
+    .tabs-features,
+    .contact-vidanta,
+    .destinations-features{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 960px;
+    }
+
+    .banner-middle-full .section-heading-ban{
+        left: 50%;
+        top:35%;
+    }
+
+}
+
+@media (min-width: 1600px) {
+    .navbar-default.section-nav.affix{
+        left: 50%;
+        margin-left: -800px;
+    }
+}
+
