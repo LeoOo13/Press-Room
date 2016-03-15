@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media (min-width: 767px){ /******************TABLET STYLES**************************/
 
 }
@@ -156,5 +157,14 @@
 
     .footer-connect .nav > li > a.instagram{
         margin-right: 15px;
+    }
+    /*ESTILOS GENERALES*/
+    .block-1024{
+        position: relative;
+        max-width: 1024px;
+        margin: 0 auto 25px auto;
+    }
+    .full-img{
+        width: 100%;
     }
 }
