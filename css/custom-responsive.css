@@ -1,0 +1,160 @@
+@media (min-width: 767px){ /******************TABLET STYLES**************************/
+
+}
+
+
+@media (min-width: 979px){ /******************DESKTOP STYLES**************************/
+    /*--------------------Navbar----------------------*/
+    .navbar-wrapper .navbar-main-wrapper .navbar-nav{
+        margin-right: 0px;
+    }
+
+    .navbar-wrapper .navbar {
+        margin-bottom: 0px;
+        padding-right: 15px;
+        padding-left: 15px;
+        border: 0;
+    }
+
+    .navbar-wrapper .navbar-brand{
+        height: 77px;
+        line-height: 76px;
+        max-width: 220px;
+        padding: 0;
+        background-color: #232323;
+    }
+
+    .navbar-wrapper .navbar-brand img{
+        display: inline-block;
+        max-height: 100%;
+        vertical-align: middle;
+    }
+
+    .logo{
+        display: inline-block;
+        line-height: 1;
+        vertical-align: middle;
+    }
+    .navbar-wrapper .navbar-brand{
+        height: 60px;
+        line-height: normal;
+    }
+
+    .navbar-wrapper .navbar{
+        background: #000;
+        margin-left: -15px;
+    }
+
+    .navbar-wrapper .navbar .phone-contact{
+        position: initial;
+        margin: 0;
+    }
+    .navbar-right{
+        float: right;
+    }
+    /*----------------------------- Footer, Map Site, Reservations, Connect------------------------------ */
+
+    footer{
+        font-family: 'gotham_lightregular';
+        color: #fff;
+        background-color: #222;
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+    footer .container-fluid{
+        max-width: 1366px!important;
+    }
+    .site-map{
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .site-map .site-map-nav-title{
+        text-transform: uppercase;
+        font-family: 'gotham_mediumregular';
+        font-size: 10pt;
+        cursor: pointer;
+    }
+    .site-map .active .site-map-nav-title{
+        color: #32a1bd;
+        /*word-spacing: 4px;
+        letter-spacing: 1px;*/
+    }
+    .site-map .nav{
+        display: none;
+    }
+    .site-map .my-vida{
+        display: none!important;
+    }
+    .site-map .active .nav{
+        display: block;
+    }
+    .site-map .nav>li>a,
+    .reservations address a{
+        font-size: 10pt;
+        color: #ccc;
+        padding: 3px 0;
+    }
+
+    .site-map .nav > li > a:hover,
+    .site-map .nav > li > a:focus,
+    .reservations address a:hover,
+    .reservations address a:focus{
+        color: #fff;
+        background-color: transparent;
+    }
+    .reservations{
+        text-align: center;
+    }
+    .reservations .booking{
+        padding-bottom: 20px;
+    }
+    .reservations .booking:before{
+        content: "";
+        width: 60px;
+        border-top: 1px solid #3d3d3d;
+        height: 1px;
+        position: absolute;
+        top: -18px;
+        left: 50%;
+        margin-left: -30px;
+    }
+    .reservations .booking h1{
+        margin-top: 0;
+        font-size: 11pt;
+        margin-bottom: 0;
+    }
+    .reservations .booking a{
+        color: #fff;
+        font-family: 'gotham_mediumregular';
+        font-size: 20pt;
+    }
+    .reservations address strong{
+        font-family: 'gotham_mediumregular';
+        font-size: 11pt;
+    }
+    .footer-connect .footer-connect-label{
+        font-family: 'gotham_mediumregular';
+        display: none;
+    }
+    .footer-connect .nav li{
+        display: inline-block;
+    }
+    .footer-connect .nav > li > a{
+        padding: 10px;
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+    }
+    .footer-connect .nav > li > a:hover,
+    .footer-connect .nav > li > a:focus{
+        background-color: transparent;
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    .footer-connect .youtube{
+        width: 50px;
+    }
+
+    .footer-connect .nav > li > a.instagram{
+        margin-right: 15px;
+    }
+}
