@@ -17,10 +17,14 @@
     }
 
     .navbar-wrapper .navbar-brand{
-        height: 77px;
-        line-height: 76px;
+        height: 60px;
+        line-height: normal;
         max-width: 220px;
         padding: 0;
+        background-color: #232323;
+    }
+
+    .navbar-wrapper .navbar-brand:hover{
         background-color: #232323;
     }
 
@@ -35,17 +39,45 @@
         line-height: 1;
         vertical-align: middle;
     }
-    .navbar-wrapper .navbar-brand{
-        height: 60px;
-        line-height: normal;
+
+    .nav.navbar-nav.navbar-right{
+        margin: 10px 0 0;
+    }
+
+    .navbar-nav .phone-contact{
+        color: #fff;
+        font-weight: 700;
+    }
+    .navbar-nav>li>a{
+        padding: 5px;
+    }
+
+    .navbar-nav>li>a>span{
+        display: block;
+        padding: 5px 10px;
+    }
+    .navbar-nav>li>a>span.active{
+        color: #0B92B1;
+        background-color: #222222;
+    }
+    .navbar-nav li:last-child{
+        border-left: 1px solid #232323;
+        padding-left: 15px;
+    }
+
+    .navbar-nav li .phone-contact + p{
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 10px;
     }
 
     .navbar-wrapper .navbar{
         background: #000;
         margin-left: -15px;
+        margin-right: -15px;
     }
 
-    .navbar-wrapper .navbar .phone-contact{
+    .navbar-wrapper .navbar .phone-contact,.navbar-nav .phone-contact + p{
         position: initial;
         margin: 0;
     }
