@@ -1,0 +1,9 @@
+/* Para centrar */
+.block-1024{
+    position: relative;
+    max-width: 1024px;
+    margin: 0 auto 25px auto;
+}
+.full-img{
+    width: 100%;
+}
