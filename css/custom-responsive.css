@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 @media (min-width: 767px){ /******************TABLET STYLES**************************/
 
@@ -159,12 +160,30 @@
         margin-right: 15px;
     }
     /*ESTILOS GENERALES*/
+    /* ---------------- Para centrar ---------------- */
     .block-1024{
         position: relative;
         max-width: 1024px;
         margin: 0 auto 25px auto;
     }
+    /* ---------------- Banner ---------------- */
     .full-img{
         width: 100%;
+    }
+    .cuadro-baner{
+        width: 35%;
+        height: 50%;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.75);
+        position: absolute;
+        font-size: 22px;
+        text-align: center;
+        left: 3%;
+        top: 35%;
+    }
+    .cuadro-baner p{   
+        font-size: 18px;
+        text-align: left;
+        padding-left: 25px;
     }
 }
