@@ -170,18 +170,49 @@
     }
     .cuadro-baner{
         width: 35%;
-        height: 50%;
+        height: 40%;
         color: #fff;
         background-color: rgba(0, 0, 0, 0.75);
         position: absolute;
         font-size: 22px;
         text-align: center;
         left: 3%;
-        top: 35%;
+        top: 45%;
     }
     .cuadro-baner p{   
-        font-size: 18px;
+        font-size: 12px;
         text-align: left;
         padding-left: 25px;
+    }
+    .banner-wrapper{
+        margin-top: 60px;
+    }
+    /* ---------------- Img Caption ---------------- */
+    .titulo-section{
+        text-align: left;
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 100;
+        margin: 25px 0px;
+    }
+    .cuadro-caption{
+        width: 96%;
+        height: 26%;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.75);
+        position: absolute;
+        font-size: 12px;
+        left: 2%;
+        top: 74%;
+        padding-left: 15px;
+        padding-right: 25px;
+    }
+    .cuadro-caption span{
+        color: #999;
+        display: block;
+        margin-top: -10px;
+    }
+    .cuadro-caption p{
+        margin: 10px 0px;
     }
 }
