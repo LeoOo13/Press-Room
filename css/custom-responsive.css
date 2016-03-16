@@ -85,6 +85,27 @@
         float: right;
     }
 
+    /*-------------------PRESS-KIT LISTA----------------*/
+
+    a{
+        font-weight: 600;
+        color: #2189D8;
+    }
+
+    .press h4, .press small{
+        font-weight: 700;
+    }
+
+    .press h4{
+        margin-bottom: 0px;
+    }
+
+    .press p{
+        margin-top: 10px;
+    }
+
+    /*-----------------------------------*/
+
     /*----------------- -- menu aside -----------------*/
 
     .twitter, .instagram, .facebook, .youtube{
