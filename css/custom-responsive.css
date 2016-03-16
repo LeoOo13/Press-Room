@@ -401,8 +401,7 @@
         text-transform: uppercase;
     }
     .btn-blue span{
-        display: inline-block;
-        
+        display: inline-block;   
     }
     .arrow{
         width: 32px;
@@ -416,4 +415,32 @@
         margin-right: -8px;
         margin-left: 15px;
     }
+    /* ---------------- Paginación ---------------- */
+    .pag-num{
+        margin-top: 50px;
+    }
+    .paginacion{
+        background-color: #00159b;
+        color: #fff;
+        padding: 8px 10px;
+        text-transform: uppercase;
+    }
+    .paginacion span{
+        display: inline-block; 
+    }
+    .arrow-pag{
+        width: 32px;
+        height: 32px;
+        background-color: #00159b;
+        background-image: url('../images/icons/right-arrow.png');
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: 50% 50%;
+        margin-bottom: -11px;
+        margin-right: -14px;
+    }
+    .paginacion:hover, .paginacion:hover span{
+        background-color: #07a5c9;
+    }
+    
 }
