@@ -87,20 +87,100 @@
 
     /*----------------- -- menu aside -----------------*/
 
-    aside li a{
+    .twitter, .instagram, .facebook, .youtube{
+        width: 25px;
+        height: 25px;
+        background-size: 100% 100%;
+        margin-right: 10px;
+    }
+
+    .twitter {
+        background-image: url("../images/logos/twitter.png");
+    }
+
+    .instagram {
+        background-image: url("../images/logos/instagram.png");
+    }
+
+    .facebook {
+        background-image: url("../images/logos/facebook.png");
+    }
+
+    .youtube {
+        background-image: url("../images/logos/youtube.png");
+    }
+
+    .socialNet{
+        margin-top: 100px;
+    }
+    
+    .socialNet li{
+        display: inline-block;
+        width: 23%;
+    }
+
+    .socialNet li a{
+        float: right;
+        padding: 10px 0px;
+    }
+
+    .socialNet li a:hover{
+        background-color: white;
+    }
+
+    .socialNet li:first-child{
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 900;
+    }
+
+    .socialNet li:nth-child(2) a{
+        margin-right: 0px;
+    }
+
+    .socialNet li:nth-child(4) a{
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .input-group{
+        margin-top: 15px;
+    }
+
+    .input-search{
+        border-right: none;
+        border-radius: 0px;
+    }
+
+    button.btn-search{
+        background: none;
+        border-left: none;
+        border-radius: 0px;
+        box-shadow:none;
+    }
+
+    button.btn-search:hover{
+        background: none;
+        border-left: none;
+        box-shadow:none;
+        border-color: #ccc;
+    }
+
+    .nav-links li a{
         display: inline-block !important;
         color: black;
         padding: 5px 10px !important;
         margin: 5px;
     }
 
-    aside ul{
+    aside .nav-links{
         margin-top: 15px;
         padding: 10px;
         border: 1px solid #cecece;
     }
 
-    aside ul li:first-child{
+    aside .nav-links li:first-child{
         font-size: 30px;
         margin-left: 15px;
         margin-right: 15px;
@@ -111,13 +191,13 @@
         font-weight: 600;        
     }
 
-    .nav>li>a:focus, .nav>li>a:hover {
+    .nav-links>li>a:focus, .nav-links>li>a:hover {
         text-decoration: none;
         background-color: #295DCC;
         color: #FFF;
         display: inline-block;
     }
-    /*-----------------*/
+    /*---------------------------------------*/
 
 
     /*----------------------------- Footer, Map Site, Reservations, Connect------------------------------ */
