@@ -109,10 +109,6 @@
     .youtube {
         background-image: url("../images/logos/youtube.png");
     }
-
-    .socialNet{
-        margin-top: 100px;
-    }
     
     .socialNet li{
         display: inline-block;
@@ -341,7 +337,7 @@
         font-size: 40px;
         font-family: sans-serif;
         font-weight: 100;
-        margin: 25px 0px;
+        margin: 25px 14px;
     }
     .img-caption{
         position: relative;
@@ -392,7 +388,7 @@
     }
     .container-noticias p{
         padding-top: 10px;
-        padding-bottom: 0px;
+        padding-bottom: 10px;
     }
     .btn-blue{
         background-color: #00159b;
