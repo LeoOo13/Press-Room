@@ -330,6 +330,7 @@
     }
     .banner-wrapper{
         margin-top: 60px;
+        margin-bottom: 30px;
     }
     /* ---------------- Img Caption ---------------- */
     .titulo-section{
@@ -337,7 +338,8 @@
         font-size: 40px;
         font-family: sans-serif;
         font-weight: 100;
-        margin: 25px 14px;
+        margin: 0px 14px;
+        margin-bottom: 20px;
     }
     .img-caption{
         position: relative;
