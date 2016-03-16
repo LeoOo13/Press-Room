@@ -367,6 +367,9 @@
         margin: 10px 0px;
     }
     /* ---------------- Summary ---------------- */
+    .container-fluid .row.noticia:not(:first-child) hr:nth-child(1){
+        display: none;
+    } 
     .separador{
         padding: 0px;
         padding-top: 20px;
