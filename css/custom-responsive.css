@@ -443,7 +443,7 @@
         margin-right: -8px;
         margin-left: 15px;
     }
-    /* ---------------- Paginacion ---------------- */
+    /* ---------------- Paginación ---------------- */
     .arrow-pag{
         width: 32px;
         height: 32px;
@@ -469,4 +469,9 @@
     .paginacion:hover, .pag-num a:hover span{
         background-color: #07a5c9;
     }
+    .pag-num{
+        margin-left: -14px;
+    }
+    /* ---------------- Sumarry Press Releases ---------------- */
+    
 }
