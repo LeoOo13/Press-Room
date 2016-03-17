@@ -432,4 +432,30 @@
         margin-right: -8px;
         margin-left: 15px;
     }
+    /* ---------------- Paginacion ---------------- */
+    .arrow-pag{
+        width: 32px;
+        height: 32px;
+        background-color: #00159b;
+        background-image: url('../images/icons/right-arrow.png');
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: 50% 50%;
+        margin-bottom: -11px;
+        margin-right: -8px;
+        margin-left: 15px;
+    }
+    .paginacion{
+        background-color: #00159b;
+        color: #fff;
+        padding: 8px;
+        text-transform: uppercase;
+    }
+    .paginacion span{
+        display: inline-block;
+        
+    }
+    .paginacion:hover, .pag-num a:hover span{
+        background-color: #07a5c9;
+    }
 }
