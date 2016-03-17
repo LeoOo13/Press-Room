@@ -92,6 +92,16 @@
         color: #2189D8;
     }
 
+    .noticia hr{
+        border-top:1px solid #cecece;
+    }
+
+    .titulo-press{
+        border-bottom: 1px solid #000;
+        margin-bottom: 30px;
+        padding-bottom: 5px; 
+    }
+
     .press h4, .press small{
         font-weight: 700;
     }
@@ -103,6 +113,7 @@
     .press p{
         margin-top: 10px;
     }
+
 
     /*-----------------------------------*/
 
