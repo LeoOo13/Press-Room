@@ -85,6 +85,12 @@
         float: right;
     }
 
+    /*-------------------PRESS-KIT/ PRESS-RELEASE EXAMPLE----------------*/
+    .titulo-section .fecha{
+        font-size: 15px;
+        font-weight: 700;
+    }
+
     /*-------------------PRESS-KIT LISTA----------------*/
 
     a{
