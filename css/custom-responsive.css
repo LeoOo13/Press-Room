@@ -478,6 +478,10 @@
     .pag-num{
         margin-left: -14px;
     }
-    /* ---------------- Sumarry Press Releases ---------------- */
+    /* ---------------- Media Contact ---------------- */
+    .container-contact h3{
+        color: #07a5c9;
+        margin-top: -5px;
+    }
     
 }
