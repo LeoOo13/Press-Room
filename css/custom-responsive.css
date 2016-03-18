@@ -488,7 +488,7 @@
         background-color: #00159b;
         color: #fff;
     }
-    .cuadro-informativo h4, p{
+    .cuadro-informativo h4, .cuadro-informativo p{
         padding: 10px;
         margin-bottom: 0px;
     }
@@ -512,6 +512,6 @@
         color: #07a5c9;
         margin-top: 0px;
         margin-left: 0px;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
 }
