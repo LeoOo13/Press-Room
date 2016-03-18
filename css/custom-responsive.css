@@ -483,5 +483,35 @@
         color: #07a5c9;
         margin-top: -5px;
     }
-    
+    /* ---------------- About Vidanta ---------------- */
+    .cuadro-informativo{
+        background-color: #00159b;
+        color: #fff;
+    }
+    .cuadro-informativo h4, p{
+        padding: 10px;
+        margin-bottom: 0px;
+    }
+    .cuadro-informativo h4{
+        text-transform: uppercase;
+    }
+    .text-description p{
+        padding-left: 0px;
+    }
+    .descripton-news{
+        margin-top: 40px;
+    }
+    .text-description{
+        margin-top: -23px;
+        padding: 0px;
+    }
+    .sin-padding-right{
+        padding-right: 0px;
+    }
+    .titulo-blue h3{
+        color: #07a5c9;
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
 }
