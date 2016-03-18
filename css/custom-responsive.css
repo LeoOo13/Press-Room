@@ -1,5 +1,25 @@
 @media (min-width: 767px){ /******************TABLET STYLES**************************/
+    .form-inline .input-group {
+        display: inline-table;
+        vertical-align: middle;
+    }
+    .reservations .booking:before {
+        right: -40px;
+        left: auto;
+        border-top: 0;
+        border-left: 1px solid #3d3d3d;
+        height: 120px;
+    }
+    .bottom-branding ul li {
+        width: 14%;
+        float: left;
+        line-height: 70px;
+    }
 
+    .bottom-branding ul li:first-child {
+        width: 16%;
+        border-right: 1px solid #3d3d3d;
+    }
 }
 
 
@@ -87,8 +107,29 @@
 
     /*-------------------PRESS-KIT/ PRESS-RELEASE EXAMPLE----------------*/
     .titulo-section .fecha{
+        display: block;
         font-size: 15px;
         font-weight: 700;
+    }
+
+    .press-element h1{
+        margin-bottom: 0px;
+    }
+
+    .release-kit h3{
+        margin-bottom: 25px;
+    }
+
+    .imagen{
+        margin-bottom: 30px;
+    }
+
+    .social-counter{
+        margin-top: 20px;
+    }
+    a.btn-blue{
+        color: white;
+        text-decoration: initial;
     }
 
     /*-------------------PRESS-KIT LISTA----------------*/
@@ -233,6 +274,141 @@
     }
     /*---------------------------------------*/
 
+    /*---------------Newsletter------------------*/
+    .suscribe-newsletter {
+        background-color: #32a1bd;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        margin-bottom: 0!important;
+        z-index: 1;
+    }
+
+    .suscribe-newsletter .form-group {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .suscribe-newsletter .form-control-static {
+        font-family: 'gotham_mediumregular';
+        /* font-size: 22pt; */
+        font-size: 14pt;
+        color: #fff;
+        margin-left: -20px;
+    }
+    .suscribe-newsletter .form-group.vidanta-select, .vidanta-select {
+        position: relative;
+    }
+
+    .section {
+        position: relative;
+        margin-bottom: 30px;
+        max-width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .suscribe-newsletter .btn {
+        font-family: 'gotham_mediumregular';
+        background-color: #222;
+        color: #fff;
+        border-radius: 0;
+        border: 1px solid #222;
+    }
+
+    .form-group .input-group{
+        margin-top: 0px;
+    }
+
+    .suscribe-newsletter .btn {
+        background-image: none;
+    }
+
+    .input-group-btn:last-child>.btn:hover{
+        margin-left: -1px;
+    }
+
+    /*---------------------Footer issues--------------*/
+    .site-map .site-map-nav-title {
+        text-transform: uppercase;
+        font-family: 'gotham_mediumregular';
+        font-size: 10pt;
+        cursor: pointer;
+    }
+
+    .site-map .nav > li > a, .reservations address a {
+        font-size: 10pt;
+        color: #ccc;
+        padding: 3px 0;
+    }
+
+    .site-map {
+        width: 70%;
+        padding-left: 50px;
+    }
+
+    .site-map ul, .site-map h4{
+        text-align: left;
+    }
+
+    .reservations {
+        width: 30%;
+    }
+
+    .reservations .booking:before {
+        left: 20px;
+        right: auto;
+        height: 280px;
+    }
+
+    .reservations .booking:after {
+        content: "";
+        position: absolute;
+        left: -10px;
+        top: 85px;
+        width: 280px;
+        border-top: 1px solid #3d3d3d;
+    }
+
+    .bottom-nav, .bottom-branding {
+        margin-top: 20px;
+        border-top: 1px solid #3d3d3d;
+        padding: 20px 0 0;
+        /*list-style: none !important;*/
+    }
+
+    .bottom-branding ul{
+        list-style: none;
+    }
+
+    .bottom-branding ul li:first-child {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bottom-nav ul {
+        list-style: none;
+        text-align: center;
+        padding: 0;
+
+    }
+    .bottom-nav ul li {
+        display: inline-block;
+        padding: 0px 10px;
+        border-left: 1px solid #3d3d3d;
+    }
+
+    .bottom-nav ul li:first-child {
+        border: 0;
+    }
+
+    .bottom-nav ul li a {
+        color: #ccc;
+        font-size: 11px;
+    }
+
+    .bottom-branding ul li:first-child {
+        width: 16%;
+        border-right: 1px solid #3d3d3d;
+    }
 
     /*----------------------------- Footer, Map Site, Reservations, Connect------------------------------ */
 
@@ -262,7 +438,7 @@
         letter-spacing: 1px;*/
     }
     .site-map .nav{
-        display: none;
+        display: block;
     }
     .site-map .my-vida{
         display: none!important;
@@ -285,10 +461,11 @@
         background-color: transparent;
     }
     .reservations{
-        text-align: center;
+        text-align: left;
     }
     .reservations .booking{
-        padding-bottom: 20px;
+        text-align: left;
+        padding-bottom: 30px;
     }
     .reservations .booking:before{
         content: "";
@@ -435,19 +612,34 @@
     }
     .btn-blue span{
         display: inline-block;
-        
     }
-    .arrow{
+
+    .btn-blue span:first-child{
+        padding-right: 10px;
+    }
+
+    .social-counter span{
+        font-size: 13px;
+    }
+
+
+    .arrow, .download{
         width: 32px;
         height: 32px;
         background-color: #293cb6;
-        background-image: url('../images/icons/right-arrow.png');
         background-repeat: no-repeat;
         background-size: 50%;
         background-position: 50% 50%;
         margin-bottom: -11px;
         margin-right: -8px;
-        margin-left: 15px;
+    }
+
+    .arrow{
+        background-image: url('../images/icons/right-arrow.png');
+    }
+
+    .download{
+        background-image: url('../images/icons/download.png');
     }
     /* ---------------- Paginación ---------------- */
     .arrow-pag{
