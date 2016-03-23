@@ -1,4 +1,5 @@
 @media (min-width: 767px){ /******************TABLET STYLES**************************/
+    /*footer */
     .form-inline .input-group {
         display: inline-table;
         vertical-align: middle;
@@ -10,6 +11,7 @@
         border-left: 1px solid #3d3d3d;
         height: 120px;
     }
+    
     .bottom-branding ul li {
         width: 14%;
         float: left;
@@ -20,6 +22,25 @@
         width: 16%;
         border-right: 1px solid #3d3d3d;
     }
+
+    .bottom-branding ul li:nth-child(2) img {
+        margin-top: 8%;
+    }
+    .bottom-branding ul li:nth-child(3) img {
+        margin-top: 3%; 
+    }
+    .bottom-branding ul li:nth-child(4) img {
+        margin-bottom: 9%;
+    }
+    .bottom-branding ul li:nth-child(5) img {
+        margin-top: 2%;
+    }
+    .bottom-branding ul li:nth-child(6) img {
+        margin-top: 3%;
+    }
+    .bottom-branding ul li:nth-child(7) img {
+        margin-bottom: 1%;
+    } 
 }
 
 
@@ -466,16 +487,7 @@
     .reservations .booking{
         text-align: left;
         padding-bottom: 30px;
-    }
-    .reservations .booking:before{
-        content: "";
-        width: 60px;
-        border-top: 1px solid #3d3d3d;
-        height: 1px;
-        position: absolute;
-        top: -18px;
-        left: 50%;
-        margin-left: -30px;
+        margin-bottom: 20px;
     }
     .reservations .booking h1{
         margin-top: 0;
