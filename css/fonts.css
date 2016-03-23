@@ -1,0 +1,71 @@
+@font-face{
+    font-family: 'bentonModDisp-regular';
+    src: url('../fonts/BentonModDisp-Regular.eot');
+    src: url('../fonts/BentonModDisp-Regular.otf') format('opentype'),
+         url('../fonts/BentonModDisp-Regular.woff2') format('woff2'),
+         url('../fonts/BentonModDisp-Regular.woff') format('woff'),
+         url('../fonts/BentonModDisp-Regular.ttf') format('truetype'),
+         url('../fonts/BentonModDisp-Regular.svg#gotham_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'bentonModDisp-semibold';
+    src: url('../fonts/BentonModDisp-Semibold.eot');
+    src: url('../fonts/BentonModDisp-Semibold.otf') format('opentype'),
+         url('../fonts/BentonModDisp-Semibold.woff2') format('woff2'),
+         url('../fonts/BentonModDisp-Semibold.woff') format('woff'),
+         url('../fonts/BentonModDisp-Semibold.ttf') format('truetype'),
+         url('../fonts/BentonModDisp-Semibold.svg#gotham_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'gotham-bold';
+    src: url('../fonts/Gotham-Bold.eot');
+    src: url('../fonts/Gotham-Bold.otf') format('opentype'),
+         url('../fonts/Gotham-Bold.woff2') format('woff2'),
+         url('../fonts/Gotham-Bold.woff') format('woff'),
+         url('../fonts/Gotham-Bold.ttf') format('truetype'),
+         url('../fonts/Gotham-Bold.svg#gotham_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'gothamHTF-bold';
+    src: url('../fonts/GothamHTF-Bold.eot');
+    src: url('../fonts/GothamHTF-Bold.otf') format('opentype'),
+         url('../fonts/GothamHTF-Bold.woff2') format('woff2'),
+         url('../fonts/GothamHTF-Bold.woff') format('woff'),
+         url('../fonts/GothamHTF-Bold.ttf') format('truetype'),
+         url('../fonts/GothamHTF-Bold.svg#gotham_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'gothamHTF-book';
+    src: url('../fonts/GothamHTF-Book.eot');
+    src: url('../fonts/GothamHTF-Book.otf') format('opentype'),
+         url('../fonts/GothamHTF-Book.woff2') format('woff2'),
+         url('../fonts/GothamHTF-Book.woff') format('woff'),
+         url('../fonts/GothamHTF-Book.ttf') format('truetype'),
+         url('../fonts/GothamHTF-Book.svg#gotham_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'gothamHTF-light';
+    src: url('../fonts/GothamHTF-Light.eot');
+    src: url('../fonts/GothamHTF-Light.otf') format('opentype'),
+         url('../fonts/GothamHTF-Light.woff2') format('woff2'),
+         url('../fonts/GothamHTF-Light.woff') format('woff'),
+         url('../fonts/GothamHTF-Light.ttf') format('truetype'),
+         url('../fonts/GothamHTF-Light.svg#gotham_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

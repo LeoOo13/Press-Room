@@ -1,6 +1,46 @@
 /******************MOBILE STYLES**************************/
+/*general styles*/
+*, .navbar-nav p, .container-contact h3{
+	font-family: "gothamHTF-book";
+}
 
-    
+h3, h1, .cuadro-informativo p, .nav-links li a, .titulo-section, .slide-content-text{
+	font-family: "gothamHTF-light";
+}
+
+.cuadro-baner p, .navbar-nav span, .phone-contact, .cuadro-informativo h4, .socialNet li p, .nav-links li h3, .fecha, h4, .link, .btn-blue span, .container-contact div p:nth-child(2){
+	font-family: "gothamHTF-bold";
+}
+
+
+/*social*/
+.twitter, .instagram, .facebook, .youtube{
+    height: 25px;
+    background-size: 100% 100%;
+    margin-right: 10px;
+}
+
+.twitter {
+	width: 25px;
+    background-image: url("../images/logos/twitter.png");
+}
+
+.instagram {
+	width: 28px;
+    background-image: url("../images/logos/instagram.png");
+}
+
+.facebook {
+	width: 15px;
+    background-image: url("../images/logos/facebook.png");
+}
+
+.youtube {
+	width: 25px;
+    background-image: url("../images/logos/youtube.png");
+}
+
+/*footer*/
 .reservations .booking:before{
     content: "";
     width: 60px;
@@ -11,3 +51,4 @@
     left: 50%;
     margin-left: -30px;
 }
+
