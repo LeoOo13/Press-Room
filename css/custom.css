@@ -52,3 +52,32 @@ h3, h1, .cuadro-informativo p, .nav-links li a, .titulo-section, .slide-content-
     margin-left: -30px;
 }
 
+/*footer*/
+footer{
+    font-family: 'gotham_lightregular';
+    color: #fff;
+    background-color: #222;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.site-map .site-map-nav-title{
+    text-transform: uppercase;
+    font-family: 'gotham_mediumregular';
+    font-size: 10pt;
+    cursor: pointer;
+}
+
+.reservations .booking a{
+    color: #fff;
+    font-family: 'gotham_mediumregular';
+    font-size: 20pt;
+}
+.reservations address strong{
+    font-family: 'gotham_mediumregular';
+    font-size: 11pt;
+}
+.footer-connect .footer-connect-label{
+    font-family: 'gotham_mediumregular';
+    display: none;
+}
