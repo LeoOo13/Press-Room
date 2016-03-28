@@ -724,6 +724,21 @@ h3, h1, .cuadro-informativo p, .nav-links li a, .titulo-section, .slide-content-
 	font-family: "gothamHTF-bold";
 }
 
+footer .site-map li a{
+    font-family: "gotham_lightregular";
+    font-weight: normal;
+}
+
+footer .reservations .booking h1{
+    font-family: "gotham_lightregular";
+    font-weight: 500;
+    font-size: 16pt;
+}
+
+footer .reservations .booking a, footer address{
+    font-family: "gotham_mediumregular";
+    font-weight: normal;
+}
 
 /*social*/
 .nav-social{
@@ -795,5 +810,21 @@ footer{
 }
 .footer-connect .footer-connect-label{
     font-family: 'gotham_mediumregular';
-    display: none;
+    font-size: 16pt;
+}
+
+footer .nav-social li a{
+    height: 20px;
+}
+
+footer .instagram, footer .facebook{
+    width: 20px;
+}
+
+footer .twitter{
+    width: 23;
+}
+
+footer .youtube{
+    width: 50px;
 }

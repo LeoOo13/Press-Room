@@ -73,7 +73,6 @@
         margin-top: 20px;
         border-top: 1px solid #3d3d3d;
         padding: 20px 0 0;
-        /*list-style: none !important;*/
     }
 
     .bottom-branding ul{
@@ -185,7 +184,6 @@
     }
     .footer-connect .footer-connect-label{
         font-family: 'gotham_mediumregular';
-        display: none;
     }
     .footer-connect .nav li{
         display: inline-block;
