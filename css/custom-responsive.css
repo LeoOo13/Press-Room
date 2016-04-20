@@ -712,4 +712,17 @@
         margin-left: 0px;
         margin-bottom: 40px;
     }
+    .titulo-blue{
+        display: inline-block;
+    }
+    /* ---------------- Botones Sociales ---------------- */
+    .social-right{
+        display: inline-block;
+        float: right;
+    }
+    .sociales{
+        display: inline-block;
+        float: right;
+        margin-top: 5px;
+    }
 }
