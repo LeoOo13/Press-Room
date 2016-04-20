@@ -166,7 +166,7 @@
 
     .titulo-press{
         border-bottom: 1px solid #000;
-        margin-bottom: 30px;
+        /*margin-bottom: 30px;*/
         padding-bottom: 5px; 
     }
 
@@ -183,7 +183,13 @@
     }
 
 
-    /*-----------------------------------*/
+    /*----------------- IN THE NEWS EXAMPLE ------------------*/
+    .slider-inner .slider-arrows > *{
+        height: 91.25%;
+    }
+    .slide .slide-content{
+        background: #222;
+    }
 
     /*----------------- -- menu aside -----------------*/
 
@@ -263,7 +269,7 @@
 
     .nav-links>li>a:focus, .nav-links>li>a:hover {
         text-decoration: none;
-        background-color: #295DCC;
+        background-color: #1F33B5;
         color: #FFF;
         display: inline-block;
     }
@@ -667,6 +673,10 @@
         margin-left: -14px;
     }
     /* ---------------- Media Contact ---------------- */
+    .container-contact{
+        margin-top: 20px;
+    }
+    
     .container-contact h3{
         color: #07a5c9;
         margin-top: -5px;
@@ -698,7 +708,7 @@
     }
     .titulo-blue h3{
         color: #07a5c9;
-        margin-top: 0px;
+        margin-top: 20px;
         margin-left: 0px;
         margin-bottom: 40px;
     }

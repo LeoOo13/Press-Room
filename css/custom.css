@@ -34,8 +34,8 @@ h3, h1, .cuadro-informativo p, .nav-links li a, .titulo-section, .slide-content-
     background-image: url("../images/logos/instagram.png");
 }
 
-.facebook {
-    mar
+.nav>li>a.facebook {
+    margin-left: 16px;
     background-image: url("../images/logos/facebook.png");
 }
 
