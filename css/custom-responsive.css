@@ -47,4 +47,388 @@
     .bottom-branding ul li:nth-child(7) img {
         margin-bottom: 1%;
     }
+    .site-map {
+        width: 70%;
+        padding-left: 50px;
+    }
+
+    .site-map ul, .site-map h4{
+        text-align: left;
+    }
+
+    .reservations {
+        width: 30%;
+    }
+
+    .reservations .booking:before {
+        left: 20px;
+        right: auto;
+        height: 280px;
+    }
+
+    .reservations .booking:after {
+        content: "";
+        position: absolute;
+        left: -10px;
+        top: 85px;
+        width: 280px;
+        border-top: 1px solid #3d3d3d;
+    }
+
+    .bottom-nav, .bottom-branding {
+        margin-top: 20px;
+        border-top: 1px solid #3d3d3d;
+        padding: 20px 0 0;
+        /*list-style: none !important;*/
+    }
+
+    .bottom-branding ul{
+        list-style: none;
+    }
+
+    .bottom-branding ul li:first-child {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bottom-nav ul {
+        list-style: none;
+        text-align: center;
+        padding: 0;
+
+    }
+    .bottom-nav ul li {
+        display: inline-block;
+        padding: 0px 10px;
+        border-left: 1px solid #3d3d3d;
+    }
+
+    .bottom-nav ul li:first-child {
+        border: 0;
+    }
+
+    .bottom-nav ul li a {
+        color: #ccc;
+        font-size: 11px;
+    }
+
+    .bottom-branding ul li:first-child {
+        width: 16%;
+        border-right: 1px solid #3d3d3d;
+    }
+
+    /*----------------------------- Footer, Map Site, Reservations, Connect------------------------------ */
+
+    footer{
+        font-family: 'gotham_lightregular';
+        color: #fff;
+        background-color: #222;
+        padding-top: 40px;
+        padding-bottom: 80px;
+    }
+    footer .container-fluid{
+        max-width: 1366px!important;
+    }
+    .site-map{
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .site-map .site-map-nav-title{
+        text-transform: uppercase;
+        font-family: 'gotham_mediumregular';
+        font-size: 10pt;
+        cursor: pointer;
+    }
+    .site-map .active .site-map-nav-title{
+        color: #32a1bd;
+        /*word-spacing: 4px;
+        letter-spacing: 1px;*/
+    }
+    .site-map .nav{
+        display: block;
+    }
+    .site-map .my-vida{
+        display: none!important;
+    }
+    .site-map .active .nav{
+        display: block;
+    }
+    .site-map .nav>li>a,
+    .reservations address a{
+        font-size: 10pt;
+        color: #ccc;
+        padding: 3px 0;
+    }
+
+    .site-map .nav > li > a:hover,
+    .site-map .nav > li > a:focus,
+    .reservations address a:hover,
+    .reservations address a:focus{
+        color: #fff;
+        background-color: transparent;
+    }
+    .reservations{
+        text-align: left;
+    }
+    .reservations .booking{
+        text-align: left;
+        padding-bottom: 30px;
+        margin-bottom: 20px;
+    }
+    .reservations .booking h1{
+        margin-top: 0;
+        font-size: 11pt;
+        margin-bottom: 0;
+    }
+    .reservations .booking a{
+        color: #fff;
+        font-family: 'gotham_mediumregular';
+        font-size: 20pt;
+    }
+    .reservations address strong{
+        font-family: 'gotham_mediumregular';
+        font-size: 11pt;
+    }
+    .footer-connect .footer-connect-label{
+        font-family: 'gotham_mediumregular';
+        display: none;
+    }
+    .footer-connect .nav li{
+        display: inline-block;
+    }
+    .footer-connect .nav > li > a{
+        padding: 10px;
+        opacity: 0.8;
+        filter: alpha(opacity=80);
+    }
+    .footer-connect .nav > li > a:hover,
+    .footer-connect .nav > li > a:focus{
+        background-color: transparent;
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    .footer-connect .youtube{
+        width: 50px;
+    }
+
+    .footer-connect .nav > li > a.instagram{
+        margin-right: 15px;
+    }
+    /*ESTILOS GENERALES*/
+    /* ---------------- Para centrar ---------------- */
+    .block-1024{
+        position: relative;
+        max-width: 1024px;
+        margin: 0 auto 25px auto;
+    }
+    /* ---------------- Banner ---------------- */
+    .full-img{
+        width: 100%;
+    }
+    .cuadro-banner{
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.75);
+        position: absolute;
+        font-size: 22px;
+        text-align: center;
+        left: 5%;
+        top: 45%;
+        padding: 15px 20px;
+    }
+    .cuadro-banner p, .cuadro-banner h3{
+        margin: 0;
+        text-align: left;
+    }
+    .cuadro-banner h3{
+        letter-spacing: 2px;
+    }
+    .cuadro-banner p{
+        font-size: 12px;
+        font-weight: 700;
+    }
+    
+    .banner-wrapper{
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+    /* ---------------- Img Caption ---------------- */
+    .titulo-section{
+        text-align: left;
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: 100;
+        margin: 0px 14px;
+        margin-bottom: 20px;
+    }
+    .titulo-section h1{
+        margin: 0;
+    }
+    .img-caption{
+        position: relative;
+    }
+    .cuadro-caption{
+        width: 100%;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.75);
+        position: absolute;
+        font-size: 12px;
+        bottom: 0;
+        padding: 0px 30px 10px 20px;
+    }
+    .cuadro-caption h4{
+        margin-bottom: 0px;
+    }
+    .cuadro-caption span.fecha{
+        color: #999;
+        display: block;
+    }
+    .cuadro-caption p{
+        margin: 10px 0px;
+    }
+    .cuadro-caption .link{
+        text-decoration: underline;
+    }
+    .cuadro-caption .link + span{
+        display: inline-block;
+        margin-left: 5px;
+    }
+    /* ---------------- Summary ---------------- */
+    .separador{
+        padding: 0px;
+        padding-top: 20px;
+    }
+    .container-noticias{
+        margin-top: 30px;
+    }
+    .container-noticias div:first-child{
+        padding: 0px;
+    }
+    .container-noticias h3{
+        color: #07a5c9;
+        margin-top: -5px;
+    }
+    .container-noticias small{
+        display: block;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .container-noticias p{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .paginacion, .btn-blue{
+        background-color: #00159b;
+        color: #fff;
+        padding: 9px;
+        text-transform: uppercase;
+    }
+    .btn-blue span{
+        display: inline-block;
+    }
+
+    .btn-blue span:first-child{
+        padding-right: 10px;
+    }
+
+    .social-counter span{
+        font-size: 13px;
+    }
+
+
+    .arrow, .download{
+        width: 32px;
+        height: 32px;
+        background-color: #293cb6;
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: 50% 50%;
+        margin-bottom: -11px;
+        margin-right: -8px;
+    }
+
+    .arrow{
+        background-image: url('../images/icons/right-arrow.png');
+    }
+
+    .download{
+        height: 33px;
+        background-image: url('../images/icons/download.png');
+    }
+    /* ---------------- Paginación ---------------- */
+    .arrow-pag{
+        width: 32px;
+        height: 32px;
+        background-color: #00159b;
+        background-image: url('../images/icons/right-arrow.png');
+        background-repeat: no-repeat;
+        background-size: 50%;
+        background-position: 50% 50%;
+        margin-bottom: -11px;
+        margin-right: -8px;
+        margin-left: 15px;
+    }
+    .paginacion span{
+        display: inline-block;
+        
+    }
+    .paginacion:hover, .pag-num a:hover span{
+        background-color: #07a5c9;
+        color: #fff;
+    }
+    .pag-num{
+        margin-left: -14px;
+    }
+    /* ---------------- Media Contact ---------------- */
+    .container-contact{
+        margin-top: 20px;
+    }
+    
+    .container-contact h3{
+        color: #07a5c9;
+        margin-top: -5px;
+    }
+    /* ---------------- About Vidanta ---------------- */
+    .cuadro-informativo{
+        background-color: #00159b;
+        color: #fff;
+    }
+    .cuadro-informativo h4, .cuadro-informativo p{
+        padding: 10px;
+        margin-bottom: 0px;
+    }
+    .cuadro-informativo h4{
+        text-transform: uppercase;
+    }
+    .text-description p{
+        padding-left: 0px;
+    }
+    .descripton-news{
+        margin-top: 40px;
+    }
+    .text-description{
+        margin-top: -23px;
+        padding: 0px;
+    }
+    .sin-padding-right{
+        padding-right: 0px;
+    }
+    .titulo-blue h3{
+        color: #07a5c9;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 40px;
+    }
+    .titulo-blue{
+        display: inline-block;
+    }
+    /* ---------------- Botones Sociales ---------------- */
+    .social-right{
+        display: inline-block;
+        float: right;
+    }
+    .sociales{
+        display: inline-block;
+        float: right;
+        margin-top: 25px;
+    }
 }
