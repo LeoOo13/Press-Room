@@ -503,6 +503,10 @@ footer .container-fluid{
 .banner-wrapper{
     margin-top: 60px;
     margin-bottom: 30px;
+    min-height: 200px;
+    background-image: url('../images/BannnerGrandLuxxeNuevoVallarta.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 /* ---------------- Img Caption ---------------- */
 .titulo-section{
@@ -510,7 +514,7 @@ footer .container-fluid{
     font-size: 40px;
     font-family: sans-serif;
     font-weight: 100;
-    margin: 0px 14px;
+    margin: 0px;
     margin-bottom: 20px;
 }
 .titulo-section h1{
@@ -557,8 +561,8 @@ footer .container-fluid{
     padding: 0px;
 }
 .container-noticias h3{
-    color: #07a5c9;
     margin-top: -5px;
+    font-weight: 700;
 }
 .container-noticias small{
     display: block;
@@ -569,12 +573,21 @@ footer .container-fluid{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.paginacion, .btn-blue{
+.paginacion, .btn-blue, .paginacion-next{
     background-color: #00159b;
     color: #fff;
     padding: 9px;
     text-transform: uppercase;
 }
+.active-pagination{
+    background-color: #07a5c9;
+    color: #fff;
+}
+
+.cuadro-caption .btn-blue{
+    padding: 10px 8px 9px;
+}
+
 .btn-blue span{
     display: inline-block;
 }
@@ -608,25 +621,35 @@ footer .container-fluid{
     background-image: url('../images/icons/download.png');
 }
 /* ---------------- Paginación ---------------- */
-.arrow-pag{
-    width: 32px;
-    height: 32px;
-    background-color: #00159b;
+.paginacion{
+    display: inline-block;
+    padding: 5px 0px;
+    text-align: center;
+    line-height: normal;
+    width: 25px;
+}
+
+.paginacion-next{
+    width: 75px;
+    display: inline-block;
+    padding: 5px 20px 5px 0;
+    line-height: normal;
+    text-align: center;
     background-image: url('../images/icons/right-arrow.png');
     background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: 50% 50%;
-    margin-bottom: -11px;
-    margin-right: -8px;
-    margin-left: 15px;
+    background-size: 15px 12px;
+    background-position: 90% 50%;
 }
-.paginacion span{
+.paginacion-next span{
     display: inline-block;
-    
 }
-.paginacion:hover, .pag-num a:hover span{
+
+
+
+.paginacion:hover, .paginacion-next:hover{
     background-color: #07a5c9;
     color: #fff;
+    text-decoration: none;
 }
 .pag-num{
     margin-left: -14px;
