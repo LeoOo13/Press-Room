@@ -1,4 +1,21 @@
 @media(max-width:979px){
+    /*nav*/
+    .nav.navbar-nav.navbar-right {
+        display: none;
+    }
+    .navbar-toggle{
+        display: block;
+        position: absolute;
+        right: 20px;
+        height: 100%;
+        top: 0;
+        margin-top: 0;
+        border:none;
+    }
+    .menu-span, .icon-bar-wrapper{
+        display: inline-block;
+        color: #fff;
+    }
     /*footer */
     .form-inline .input-group {
         display: inline-table;
@@ -559,4 +576,9 @@
     .container-noticias h4{
         font-size: 16px;
     }
-}
+    /*news example*/
+    .multislider{
+        width: calc(100% + 30px);
+        left: -15px;
+    }
+}   
