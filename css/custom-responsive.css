@@ -427,6 +427,9 @@
 
 @media(max-width:767px){
     /*General styles*/
+    small{
+        color:#8E8E8E;
+    }
     .active-pagination {
         background-color: #07a5c9;
         color: #fff;
@@ -463,6 +466,11 @@
     .navbar-inverse .navbar-toggle{
         border: none;
     }
+
+    .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+        background-color: inherit;
+    }
+
     .menu-span, .icon-bar-wrapper{
         display: inline-block;
         color: #FFF;
@@ -489,7 +497,7 @@
     .titulo-section{
         margin: 20px 0px;
     }
-    .titulo-section h1{
+    .titulo-section h1, .titulo-press h1{
         font-size: 20px;
     }
     .cuadro-caption{
@@ -542,4 +550,13 @@
         color: black;
     }
 
+    /*Press kit articles styles*/
+
+    .press h4{
+        font-size: 16px;
+    }
+    /*Press releases*/
+    .container-noticias h4{
+        font-size: 16px;
+    }
 }
