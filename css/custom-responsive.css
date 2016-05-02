@@ -440,6 +440,123 @@
         float: right;
         margin-top: 25px;
     }
+
+    /*menú desplegable*/
+    body{
+        right: 0;
+        position: relative;
+        transition: right 0.5s;
+    }
+
+    .menu-lateral-active{
+        position: relative;
+        right: 300px;
+        overflow-y: hidden;
+        transition: right 0.5s;
+    }
+
+    .navbar-fixed-top{
+        right: 0;
+        transition: right 0.5s;
+    }
+
+    .navbar-left{
+        right: 300px;
+        transition: right 0.5s;
+    }
+
+    .menu-lateral-in{
+        right: 0px !important;
+        transition: right 0.5s;
+    }
+
+    .menu-lateral{
+        height: 100%;
+        width: 300px;
+        background-color: #000;
+        padding: 30px; 
+        position: fixed;
+        top: 0;
+        right: -300px;
+        transition: right 0.5s;
+    }
+
+    .menu-lateral p{
+        text-align: left;
+    }
+
+    .vertical-nav{
+        list-style: none;
+        padding: 0;
+    }
+
+    .vertical-nav li a{
+        display: block;
+        margin: 15px 0;
+    }
+
+    .vertical-nav li a span{
+        text-transform: uppercase;
+        padding: 10px;
+        color: #FFF;
+    }
+
+    .vertical-nav li a span.active{
+        color: #0B92B1;
+        background-color: #222222;
+    }
+
+    .contact-wrapper{
+        padding-left: 10px;
+    }
+
+    .contact{
+        padding-top: 20px;
+        border-top: thin solid #cecece;
+    }
+
+    .contact span{
+        display: block;
+        text-transform: uppercase;
+        color: #FFF;
+    }
+
+    .menu-lateral .nav-social{
+        padding: 0;
+        text-align: left;
+    }
+
+    .menu-lateral .nav-social li a{
+        background-position-x: 0; 
+    }
+
+    .menu-lateral .nav>li>a.facebook {
+        margin-left: 0;
+    }
+
+    .menu-lateral .socialNet li:not(:nth-child(4)):not(:first-child){
+        width: 25px;
+    }
+
+    .menu-lateral .socialNet li:nth-child(4){
+        margin: 0 10px;
+    }
+
+    .menu-lateral .input-search{
+        background: inherit;
+    }
+
+    .menu-lateral .glyphicon-search{
+        color: #FFF;
+    }
+
+    .input-group *{
+        border: none;
+    }
+
+    .input-group{
+        border:thin solid #cecece;
+    }
 }
 
 @media(max-width:767px){
