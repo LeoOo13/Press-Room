@@ -599,7 +599,7 @@ footer .container-fluid{
 
 .arrow, .download{
     width: 32px;
-    height: 32px;
+    height: 33px;
     background-color: #293cb6;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -663,6 +663,7 @@ footer .container-fluid{
 .cuadro-informativo{
     background-color: #00159b;
     color: #fff;
+    margin-bottom: 20px;
 }
 .cuadro-informativo h4, .cuadro-informativo p{
     padding: 10px;

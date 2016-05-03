@@ -346,7 +346,7 @@
 
     .arrow, .download{
         width: 32px;
-        height: 32px;
+        height: 33px;
         background-color: #293cb6;
         background-repeat: no-repeat;
         background-size: 50%;
@@ -697,5 +697,20 @@
     .multislider{
         width: calc(100% + 30px);
         left: -15px;
+    }
+
+    /*About vidanta*/
+    .titulo-blue h3{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .descripton-news h3{
+        font-size: 20px;
+    }
+
+    /*Media contact*/
+    .container-contact h3{
+        font-size: 20px;
     }
 }   
