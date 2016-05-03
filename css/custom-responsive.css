@@ -456,7 +456,7 @@
     }
 
     .navbar-fixed-top{
-        position: absolute;
+        /*position: absolute;*/
         right: 0px;
         transition: right 0.5s;
     }
@@ -469,12 +469,28 @@
         transition: right 0.5s;
     }
 
+    .button-menu-in{
+        right: 300px!important;
+        transition: right 0.5s;
+    }
+
+    .navbar-brand{
+        opacity: 1;
+        transition: opacity 0.5s;
+    }
+
+    .navbar-brand-out{
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+
     .menu-lateral-in{
         right: 0px !important;
         transition: right 0.5s;
     }
 
     .menu-lateral{
+        z-index: 1030;
         height: 100%;
         width: 300px;
         background-color: #000;
@@ -575,13 +591,18 @@
         right: 0;
     }
 
+    .navbar-toggle{
+        right: 0;
+        transition: right 0.5s;
+    }
+
     .navbar-toggle .icon-bar{
         background-color: #FFF;
     }
 
     .wrapper-sup.sup-active{
         position: absolute;
-        z-index: 1;
+        z-index: 1031;
         height: 100%;
         width: 100%;
         background-color: rgba(0, 0, 0, 0.7);
