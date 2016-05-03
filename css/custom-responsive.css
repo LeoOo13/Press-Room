@@ -456,12 +456,16 @@
     }
 
     .navbar-fixed-top{
-        right: 0;
+        position: absolute;
+        right: 0px;
         transition: right 0.5s;
     }
 
     .navbar-left{
-        right: 300px;
+        position: absolute;
+        right: 0;
+        z-index: 0;
+        /*right: 300px;*/
         transition: right 0.5s;
     }
 
@@ -556,6 +560,31 @@
 
     .input-group{
         border:thin solid #cecece;
+    }
+
+    .menu-lateral .icon-bar-wrapper span:first-child{
+        -webkit-transform: rotate(45deg) translate(0px, 0px) translate3d(0px, 0px, 0px) scale(1);
+    }
+
+    .menu-lateral .icon-bar-wrapper span:nth-child(2){
+        -webkit-transform: rotate(-45deg) translate(4px, -5px) translate3d(0px, 0px, 0px) scale(1);
+    }
+
+    .menu-lateral .navbar-toggle{
+        height: 65px;
+        right: 0;
+    }
+
+    .navbar-toggle .icon-bar{
+        background-color: #FFF;
+    }
+
+    .wrapper-sup.sup-active{
+        position: absolute;
+        z-index: 1;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
     }
 }
 
