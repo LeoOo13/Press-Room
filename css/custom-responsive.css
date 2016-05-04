@@ -582,7 +582,6 @@
     .input-group{
         border:thin solid #cecece;
     }
-<<<<<<< Updated upstream
 
     .menu-lateral .icon-bar-wrapper span:first-child{
         -webkit-transform: rotate(45deg) translate(0px, 0px) translate3d(0px, 0px, 0px) scale(1);
@@ -613,7 +612,7 @@
         height: 100%;
         width: 100%;
         background-color: rgba(0, 0, 0, 0.7);
-=======
+    }
     /* ---------------- Tablet ---------------- */
     /*Menú lateral*/
     aside{
@@ -652,7 +651,6 @@
     .nav-links-responsive a{
         font-size: 10px;
         color: black;
->>>>>>> Stashed changes
     }
 }
 
@@ -758,7 +756,6 @@
         width: calc(100% + 30px);
         left: -15px;
     }
-<<<<<<< Updated upstream
 
     /*About vidanta*/
     .titulo-blue h3{
@@ -774,11 +771,8 @@
     .container-contact h3{
         font-size: 20px;
     }
-=======
     /*Foto lateral - About*/
     .text-description{
         padding: 0px;
     }
-   
->>>>>>> Stashed changes
 }   
