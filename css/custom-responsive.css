@@ -325,12 +325,6 @@
         padding-top: 10px;
         padding-bottom: 10px;
     }
-    .paginacion, .btn-blue{
-        background-color: #00159b;
-        color: #fff;
-        padding: 9px;
-        text-transform: uppercase;
-    }
     .btn-blue span{
         display: inline-block;
     }
