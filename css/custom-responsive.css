@@ -1,5 +1,8 @@
-@media(max-width:979px){
+@media(max-width:991px){
     /*nav*/
+    .img-expanded{
+        width: 100%;
+    }
     .nav.navbar-nav.navbar-right {
         display: none;
     }
@@ -634,6 +637,7 @@
         margin-top: 15px;
         padding: 10px;
         border: 1px solid #cecece;
+        margin-bottom: 20px;
     }
 
     .nav-links-responsive h3{
