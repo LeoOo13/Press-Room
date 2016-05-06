@@ -149,10 +149,25 @@ a{
 
 /*----------------- IN THE NEWS EXAMPLE ------------------*/
 .slider-inner .slider-arrows > *{
-    height: 91.25%;
+    height: 100%;
+    margin-top: -52px;
 }
+
+.slider-arrows > *:before{
+    margin-top: 25px;
+}
+
+
+.slide-content{
+    height: 42px;
+}
+
 .slide .slide-content{
     background: #222;
+}
+
+.slider-inner{
+    overflow: hidden;
 }
 
 /*----------------- -- menu aside -----------------*/

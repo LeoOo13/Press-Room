@@ -321,9 +321,6 @@
     }
     /* ---------------- Img Caption ---------------- */
 
-    .slider-inner .slider-arrows > *{
-        height: 92%;
-    }
     .titulo-section{
         text-align: left;
         font-size: 40px;
@@ -816,10 +813,6 @@
     }
     .titulo-section h1, .titulo-press h1{
         font-size: 20px;
-    }
-
-    .slider-inner .slider-arrows > *{
-        height: 89%;
     }
 
     .cuadro-caption{
