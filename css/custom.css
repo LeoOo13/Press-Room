@@ -630,7 +630,7 @@ footer .container-fluid{
 }
 
 .btn-blue span:first-child{
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 .social-counter span{
@@ -853,4 +853,11 @@ footer .twitter{
 
 footer .youtube{
     width: 50px;
+}
+
+.fb-share-button iframe, .fb-share-button span{
+    width: 60px !important;
+    height: 20px !important;
+    /*overflow: visible !important;
+    margin-top: -3px;*/
 }
