@@ -19,51 +19,77 @@
         display: inline-block;
         color: #fff;
     }
-    /*footer */
-    .form-inline .input-group {
-        display: inline-table;
-        vertical-align: middle;
-    }
-    .reservations .booking:before {
-        right: -40px;
-        left: auto;
-        border-top: 0;
-        border-left: 1px solid #3d3d3d;
-        height: 120px;
-    }
-    
-    .bottom-branding ul li {
-        width: 14%;
-        float: left;
-        line-height: 70px;
+    /*Responsive*/
+
+    /*---------------Newsletter------------------*/
+    .suscribe-newsletter {
+        background-color: #32a1bd;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        margin-bottom: 0!important;
+        z-index: 1;
     }
 
-    .bottom-branding ul li:first-child {
-        width: 16%;
-        border-right: 1px solid #3d3d3d;
+    .suscribe-newsletter .form-group {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .suscribe-newsletter .form-control-static {
+        font-family: 'gotham_mediumregular';
+        /* font-size: 22pt; */
+        font-size: 14pt;
+        color: #fff;
+        margin-left: -20px;
+    }
+    .suscribe-newsletter .form-group.vidanta-select, .vidanta-select {
+        position: relative;
     }
 
-    .bottom-branding ul li:nth-child(2) img {
-        margin-top: 8%;
+    .section {
+        position: relative;
+        margin-bottom: 30px;
+        max-width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
     }
-    .bottom-branding ul li:nth-child(3) img {
-        margin-top: 3%; 
+    .suscribe-newsletter .btn {
+        font-family: 'gotham_mediumregular';
+        background-color: #222;
+        color: #fff;
+        border-radius: 0;
+        border: 1px solid #222;
     }
-    .bottom-branding ul li:nth-child(4) img {
-        margin-bottom: 9%;
+
+    .form-group .input-group{
+        margin-top: 0px;
     }
-    .bottom-branding ul li:nth-child(5) img {
-        margin-top: 2%;
+
+    .suscribe-newsletter .btn {
+        background-image: none;
     }
-    .bottom-branding ul li:nth-child(6) img {
-        margin-top: 3%;
+
+    .input-group-btn:last-child>.btn:hover{
+        margin-left: -1px;
     }
-    .bottom-branding ul li:nth-child(7) img {
-        margin-bottom: 1%;
+
+    /*---------------------Footer issues--------------*/
+    .site-map .site-map-nav-title {
+        text-transform: uppercase;
+        font-family: 'gotham_mediumregular';
+        font-size: 10pt;
+        cursor: pointer;
     }
+
+    .site-map .nav > li > a, .reservations address a {
+        font-size: 10pt;
+        color: #ccc;
+        padding: 3px 0;
+    }
+
     .site-map {
-        width: 70%;
-        padding-left: 50px;
+        width: 100%;
+        padding-left: 25px;
     }
 
     .site-map ul, .site-map h4{
@@ -71,37 +97,43 @@
     }
 
     .reservations {
-        width: 30%;
+        width: 100%;
     }
+
+    /*.reservations .booking:before {
+        content: "";
+        width: 60px;
+        border-top: 1px solid #3d3d3d;
+        height: 1px;
+        position: absolute;
+        top: -18px;
+        left: 50%;
+        margin-left: -30px;
+    }*/
 
     .reservations .booking:before {
-        left: 20px;
-        right: auto;
-        height: 280px;
+        content: "";
+        right: 25px;
+        left: auto;
+        border-top: 0;
+        border-left: 1px solid #3d3d3d;
+        height: 120px;
     }
 
+
     .reservations .booking:after {
-        content: "";
-        position: absolute;
-        left: -10px;
-        top: 85px;
-        width: 280px;
-        border-top: 1px solid #3d3d3d;
+        display: none;
     }
 
     .bottom-nav, .bottom-branding {
         margin-top: 20px;
         border-top: 1px solid #3d3d3d;
         padding: 20px 0 0;
+        /*list-style: none !important;*/
     }
 
     .bottom-branding ul{
         list-style: none;
-    }
-
-    .bottom-branding ul li:first-child {
-        width: 100%;
-        text-align: center;
     }
 
     .bottom-nav ul {
@@ -146,6 +178,15 @@
         text-align: center;
         margin-bottom: 35px;
     }
+
+    .site-map .nav li a{
+        text-align: center;
+    }
+
+    .site-map h4{
+        text-align: center;
+    }
+
     .site-map .site-map-nav-title{
         text-transform: uppercase;
         font-family: 'gotham_mediumregular';
@@ -157,9 +198,7 @@
         /*word-spacing: 4px;
         letter-spacing: 1px;*/
     }
-    .site-map .nav{
-        display: block;
-    }
+    
     .site-map .my-vida{
         display: none!important;
     }
@@ -171,6 +210,9 @@
         font-size: 10pt;
         color: #ccc;
         padding: 3px 0;
+    }
+    .reservations address{
+        text-align: center;
     }
 
     .site-map .nav > li > a:hover,
@@ -184,10 +226,21 @@
         text-align: left;
     }
     .reservations .booking{
-        text-align: left;
-        padding-bottom: 30px;
-        margin-bottom: 20px;
+        text-align: center;
     }
+
+    .reservations .booking:before {
+        content: "";
+        width: 60px;
+        border-top: 1px solid #3d3d3d;
+        height: 1px;
+        position: absolute;
+        top: -18px;
+        left: 50%;
+        margin-left: -30px;
+    }
+
+    
     .reservations .booking h1{
         margin-top: 0;
         font-size: 11pt;
@@ -202,8 +255,20 @@
         font-family: 'gotham_mediumregular';
         font-size: 11pt;
     }
+    .footer-connect{
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .footer-connect .nav-social{
+        padding-left: 0;
+        text-align: center;
+    }
     .footer-connect .footer-connect-label{
+        font-size: 12pt;
         font-family: 'gotham_mediumregular';
+        display: inline-block;
+        margin-bottom: 8px;
     }
     .footer-connect .nav li{
         display: inline-block;
@@ -572,10 +637,6 @@
         color: #FFF;
     }
 
-    .input-group *{
-        border: none;
-    }
-
     .input-group{
         border:thin solid #cecece;
     }
@@ -698,6 +759,10 @@
         background-color: inherit;
     }
 
+    .site-map .nav{
+        display: none;
+    }
+
     .menu-span, .icon-bar-wrapper{
         display: inline-block;
         color: #FFF;
@@ -772,5 +837,23 @@
     /*Foto lateral - About*/
     .text-description{
         padding: 0px;
+    }
+
+    .bottom-branding ul{
+        padding: 0;
+    }
+
+    .bottom-branding ul li:first-child {
+        width: 100%;
+        text-align: center;
+        border: none;
+    }
+
+    .bottom-nav{
+        display: none;
+    }
+
+    .bottom-branding ul li:not(:first-child){
+        display: none;
     }
 }   

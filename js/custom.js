@@ -17,4 +17,10 @@ $(document).ready(function(){
 			$(".navbar-brand").addClass("navbar-brand-out");
 		}
 	});
+	$(".site-map-nav-title").click(function(){
+		if($(this).parent(".col-sm-3").hasClass("active"))
+			$(this).parent(".col-sm-3").removeClass("active");
+		else
+			$(this).parent(".col-sm-3").addClass("active");
+	});
 });
