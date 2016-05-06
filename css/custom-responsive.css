@@ -716,6 +716,23 @@
         margin-top: 0px;
         float: left;
     }
+    /*iframe twitter*/
+    iframe#twitter-widget-2, iframe#twitter-widget-4 {
+        width: 75% !important;
+    }
+
+    .social-right{
+        display: block;
+        width: 75%;
+        margin-top: 15px;
+        text-align: center;
+        position: initial;
+        float: left;
+    }
+    /*descargar pdf*/
+    .pdf{
+        padding-left: 0;
+    }
 }
 
 @media(max-width:767px){
@@ -881,5 +898,13 @@
 
     .release-kit  .btn-blue span:first-child{
         font-size: 9px;
+    }
+    /*iframe twitter*/
+    iframe#twitter-widget-2, .social-right, iframe#twitter-widget-4{
+        width: 100% !important;
+    }
+
+    .pdf{
+        padding-left: 15px;
     }
 }   
