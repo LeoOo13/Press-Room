@@ -12,6 +12,14 @@
       <link rel="stylesheet" type="text/css" href="css/custom.css">
       <link rel="stylesheet" type="text/css" href="css/custom-responsive.css">
    <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
       <div class="wrapper-sup"></div>
       <div id="wrapper">
          <header id="banner" role="banner">
@@ -85,72 +93,95 @@
                            <h1>News Article Title</h1>
                            <span class="fecha">November 19, 2015</span>
                         </div>
-                        <div class="container-fluid">
-                           <div class="row">
-                              <div class="col-md-12">
-                                 <div class='slider multislider' data-slider-controls='thumbs arrows' data-slider-loop='true' data-slider-type='slide'>
-                                    <div class='slider-inner'>
-                                       <div class='slides' data-slider-element='slides'>
-                                          <div class='slide'>
-                                             <img class='img-responsive' src='images/BigGrandLuxxeNuevoVallarta.png'>
-                                             <div class='slide-content'>
-                                                <p class='slide-content-text'>photo caption 1</p>
-                                             </div>
-                                          </div>
-                                          <div class='slide'>
-                                             <img class='img-responsive' src='images/BigGrandLuxxeNuevoVallarta.png'>
-                                             <div class='slide-content'>
-                                                <p class='slide-content-text'>photo caption 2</p>
-                                             </div>
-                                          </div>
-                                          <div class='slide'>
-                                             <img class='img-responsive' src='images/BigGrandLuxxeNuevoVallarta.png'>
-                                             <div class='slide-content'>
-                                                <p class='slide-content-text'>photo caption 3</p>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="row">
-                              <div class="col-sm-9 col-md-9">
-                                 <div class="release-kit">
-                                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                       tempor incididunt ut labore et dolore magna aliqua.
-                                    </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                       proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-                                       <br>
-                                       <br>
-                                       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                                       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                    </p>
-                                 </div>
-                              </div>
-                              <div class="col-sm-3 col-md-3">
-                                 <div class="social-counter">
-                                    <a href="#" class="btn-blue">
-                                    <span>DOWNLOAD PDF</span>
-                                    <span class="download"></span>
-                                    </a>
-                                 </div>
-                                 <div class="sociales">
-                                    <a href="https://twitter.com/Vidanta" class="twitter-follow-button" data-show-count="true" data-show-screen-name="false">Follow @Vidanta</a>
-                                    <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fwww.facebook.com%2FGrupoVidanta%2F&layout=button&mobile_iframe=true&width=58&height=20&appId" width="58" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
+                         <div class="row">
+                            <div class="col-md-12">
+                               <div class='slider multislider' data-slider-controls='thumbs arrows' data-slider-loop='true' data-slider-type='slide'>
+                                  <div class='slider-inner'>
+                                     <div class='slides' data-slider-element='slides'>
+                                        <div class='slide'>
+                                           <img class='img-responsive' src='images/BigGrandLuxxeNuevoVallarta.png'>
+                                           <div class='slide-content'>
+                                              <p class='slide-content-text'>photo caption 1</p>
+                                           </div>
+                                        </div>
+                                        <div class='slide'>
+                                           <img class='img-responsive' src='images/BigGrandLuxxeNuevoVallarta.png'>
+                                           <div class='slide-content'>
+                                              <p class='slide-content-text'>photo caption 2</p>
+                                           </div>
+                                        </div>
+                                        <div class='slide'>
+                                           <img class='img-responsive' src='images/BigGrandLuxxeNuevoVallarta.png'>
+                                           <div class='slide-content'>
+                                              <p class='slide-content-text'>photo caption 3</p>
+                                           </div>
+                                        </div>
+                                     </div>
+                                  </div>
+                               </div>
+                            </div>
+                         </div>
+                         <div class="row">
+                            <div class="col-md-9">
+                               <div class="release-kit">
+                                  <div class="row">
+                                     <div class="col-sm-9 col-md-12 hidden-xs">
+                                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                           tempor incididunt ut labore et dolore magna aliqua.
+                                        </h3>
+                                     </div>
+                                     <div class="pdf col-sm-3 col-xs-12 hidden-md hidden-lg">
+                                        <div class="social-counter">
+                                           <a href="#" class="btn-blue">
+                                           <span>DOWNLOAD PDF</span>
+                                           <span class="download"></span>
+                                           </a>
+                                        </div>
+                                        <div class="sociales">
+                                           <a class="twitter-share-button" href="https://twitter.com/intent/tweet">
+                                       Tweet</a>
+                                       <div class="fb-share-button" data-href="https://www.facebook.com/GrupoVidanta" data-layout="button" data-mobile-iframe="true"></div>
+                                        </div>
+                                     </div>
+                                   </div>
+                                   <div class="row">
+                                     <div class="col-sm-12 visible-xs">
+                                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                           tempor incididunt ut labore et dolore magna aliqua.
+                                        </h3>
+                                     </div>
+                                  </div>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                                     <br>
+                                     <br>
+                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                  </p>
+                               </div>
+                            </div>
+                            <div class="col-md-3 hidden-xs hidden-sm">
+                               <div class="social-counter">
+                                  <a href="#" class="btn-blue">
+                                  <span>DOWNLOAD PDF</span>
+                                  <span class="download"></span>
+                                  </a>
+                               </div>
+                               <div class="sociales">
+                                  <a class="twitter-share-button" href="https://twitter.com/intent/tweet">
+                               Tweet</a>
+                               <div class="fb-share-button" data-href="https://www.facebook.com/GrupoVidanta" data-layout="button" data-mobile-iframe="true"></div>
+                               </div>
+                            </div>
+                         </div>
                      </section>
                      </div>
                      <div class="col-md-3">
