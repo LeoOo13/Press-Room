@@ -650,6 +650,11 @@
         font-size: 10px;
         color: black;
     }
+
+    .sociales{
+        margin-top: 0px;
+        float: left;
+    }
 }
 
 @media(max-width:767px){
@@ -772,5 +777,26 @@
     /*Foto lateral - About*/
     .text-description{
         padding: 0px;
+    }
+    /*twitter y facebook*/
+    .release-kit  .social-counter, .sociales{
+        display: inline-block;
+    }
+
+    .release-kit .social-counter{
+        float: left;
+    }
+
+    .release-kit .social-counter a span:first-child{
+        padding: 0;
+    }
+
+    .release-kit .sociales{
+        float: right;
+        margin: 25px 4px;
+    }
+
+    .release-kit  .btn-blue span:first-child{
+        font-size: 9px;
     }
 }   
