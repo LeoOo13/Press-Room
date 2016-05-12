@@ -658,7 +658,7 @@ footer .container-fluid{
 
 .arrow, .download{
     width: 32px;
-    height: 33px;
+    height: 32px;
     background-color: #293cb6;
     background-repeat: no-repeat;
     background-size: 50%;
@@ -878,4 +878,8 @@ footer .youtube{
     height: 20px !important;
     /*overflow: visible !important;
     margin-top: -3px;*/
+}
+
+.fb-share-button {
+    top: 0 !important;
 }
