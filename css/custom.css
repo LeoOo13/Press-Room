@@ -883,3 +883,23 @@ footer .youtube{
 .fb-share-button {
     top: 0 !important;
 }
+
+
+/*** Sobreescritura de Estilos Liferay ***/
+
+.portlet-asset-publisher .asset-title{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0px;
+    font-weight: 700;
+    font-family: "gothamHTF-bold";
+    border-bottom: 0;
+}
+.portlet-asset-publisher .asset-title a,
+.portlet-asset-publisher .asset-title a:hover{
+    color: #333;
+}
+.portlet-asset-publisher .asset-title a img{
+    display: none;
+}
+
