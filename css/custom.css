@@ -1058,3 +1058,38 @@ footer .youtube{
     display: none;
 }
 
+/*search*/
+#p_p_id_3_ select{
+    display:none;
+}
+
+#p_p_id_3_ input:nth-child(10){
+    margin-left:-10px;
+    width:106%;
+    height: 35px;
+    background: none;
+}
+
+form[name="ctem_3_fm"] input:last-child{
+    position: absolute;
+    right: 15px;
+    margin-top: -25px;
+}
+
+/*stay connected*/
+
+ul.nav.nav-social {
+    text-align: center;
+    margin: 0;
+}
+
+.nav>li>a.facebook{
+    margin-left:0px
+}
+
+.twitter{
+    margin-left: 0 !important;
+}
+
+.instagram{
+    margin-right: 0 !important;
