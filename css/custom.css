@@ -776,7 +776,7 @@ h3, h1, .cuadro-informativo p, .nav-links li a, .titulo-section, .slide-content-
 	font-family: "gothamHTF-light";
 }
 
-.cuadro-baner p, .navbar-nav span, .phone-contact, .cuadro-informativo h4, .socialNet li p, .nav-links li h3, .fecha, h4, .link, .btn-blue span, .container-contact div p:nth-child(2){
+.cuadro-baner p, .navbar-nav span, .phone-contact, .cuadro-informativo h4, .socialNet li p, .nav-links li h3, .fecha, h4, .link, .btn-blue span, .contact p:first-child{
 	font-family: "gothamHTF-bold";
 }
 
