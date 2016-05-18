@@ -885,6 +885,161 @@ footer .youtube{
 }
 
 
+/********************LIFERAY STYLES***********************/
+/*General styles liferay*/
+.portlet{
+    background-color: #FFF;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilos aside categorias*/
+
+.portlet-asset-tags-navigation{
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #cecece;
+}
+
+.portlet-asset-tags-navigation .portlet-topper{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #cecece;
+    border-radius: 0;
+    margin: 0 15px;
+}
+
+.portlet-asset-tags-navigation .portlet-title span:first-child{
+    display: none;
+}
+
+.portlet-asset-tags-navigation .portlet-title-text{
+    font-size: 24px;
+    font-family: "gothamHTF-bold";
+    font-weight: 600;
+    text-shadow: none;
+    display: block;
+    margin: 20px 0px 10px;
+}
+
+.tag-items{
+    padding: 0;
+    margin: 0;
+}
+
+.tag-items + br{
+    display: none;
+}
+
+.tag-items li{
+    float: none;
+    display: block;
+    margin: 0;
+}
+
+.tag-items li > span a{
+    text-transform:capitalize;
+    display: inline-block !important;
+    padding: 5px 10px !important;
+    margin: 5px;
+    color: #000;
+    font-family: "gothamHTF-light";
+}
+
+.tag-items li > span a:hover{
+    text-decoration: none;
+    background-color: #1F33B5;
+    color: #FFF;
+}
+
+/*Asset Publisher general styles*/
+.portlet-asset-publisher .asset-title{    
+    font-family: "gothamHTF-bold";
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.portlet-asset-publisher .asset-title a:hover{
+    text-decoration: none;
+}
+
+.portlet-asset-publisher .asset-more a{
+    background-color: #00159b;
+    margin-top: 10px;
+    color: #fff;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    text-decoration: initial;
+    display: inline-block;
+}
+.press-release-asset.portlet-asset-publisher .asset-abstract,
+.press-news-asset.portlet-asset-publisher .asset-abstract{
+    padding: 15px 0px;
+    border-bottom: 1px solid #cecece;
+}
+.press-release-asset.portlet-asset-publisher .asset-content,
+.press-news-asset.portlet-asset-publisher .asset-content{
+    margin: 0;
+}
+
+/*Asset publisher press news*/
+.press-kit-asset .default-asset-publisher{
+    position: relative;
+    padding-top: 20px;
+    border-top: 1px solid #cecece;
+    margin-bottom: 20px;
+}
+.press-kit-asset .portlet-body .final-separator{
+    border-bottom: 1px solid #cecece;
+}
+.press-kit-asset.portlet-asset-publisher .asset-title {
+    margin-left: 35.33333333%;
+    margin-bottom: 5px;
+}
+
+.press-kit-asset.portlet-asset-publisher .asset-content{
+    margin-left: 35.33333333%;
+    margin-right: 0;
+}
+
+.press-kit-asset.portlet-asset-publisher .asset-small-image{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 33.33333333%;
+    padding: 0;
+}
+
+.press-kit-asset.portlet-asset-publisher .asset-small-image img{
+    width: 100%;
+}
+/*Asset publisher Press Release*/
+/*ELIMINAR ESTE SELECTOR*/
+.press-release-asset .asset-small-image, .press-news-asset .asset-small-image{
+    display: none;
+}
+
+/*Asset publisher press news*/
+.press-news-asset.portlet-asset-publisher .asset-more a{
+    background-color: transparent;
+    padding: 0;
+    font-size: 14px;
+    outline: none!important;
+    text-decoration: none;
+    font-family: "gothamHTF-bold";
+    font-weight: 600;
+    color: #2189D8;
+    text-transform: uppercase;
+}
+.press-news-asset.portlet-asset-publisher .asset-more a:hover{
+    color: #23527C;
+    text-decoration: underline;
+}
+
 /*** Sobreescritura de Estilos Liferay ***/
 
 .portlet-asset-publisher .asset-title{
