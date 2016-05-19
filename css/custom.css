@@ -986,6 +986,14 @@ footer .youtube{
 }
 
 /*Asset publisher press news*/
+.press-kit-asset .asset-abstract:first-child{
+    position: relative;
+    background-image: url('../images/BigGrandLuxxeNuevoVallarta.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
 .press-kit-asset .default-asset-publisher{
     position: relative;
     padding-top: 20px;
@@ -1035,6 +1043,11 @@ footer .youtube{
 .press-news-asset.portlet-asset-publisher .asset-more a:hover{
     color: #23527C;
     text-decoration: underline;
+}
+
+/*Asset publisher full content*/
+.press-kit-asset.portlet-asset-publisher .asset-full-content .asset-content{
+    margin: 0px;
 }
 
 /*** Sobreescritura de Estilos Liferay ***/
