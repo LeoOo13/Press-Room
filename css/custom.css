@@ -1056,18 +1056,18 @@ footer .youtube{
 }
 
 /*search*/
-#p_p_id_3_ select{
-    display:none;
+.portlet-search .portlet-content{
+    padding: 10px 0;
 }
 
-#p_p_id_3_ input:nth-child(10){
-    margin-left:-10px;
-    width:106%;
+.portlet-search input[name$=keywords]{
+    width: 100%;
     height: 35px;
+    padding: 0 10px;
     background: none;
 }
 
-form[name="ctem_3_fm"] input:last-child{
+.portlet-search form input:last-child{
     position: absolute;
     right: 15px;
     margin-top: -25px;
