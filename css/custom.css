@@ -989,8 +989,9 @@ footer .youtube{
 .press-kit-asset .default-asset-publisher{
     position: relative;
     padding-top: 20px;
-    border-top: 1px solid #cecece;
+    border-bottom: 1px solid #cecece;
     margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 .press-kit-asset .portlet-body .final-separator{
     border-bottom: 1px solid #cecece;
