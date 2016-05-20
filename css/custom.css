@@ -627,12 +627,13 @@ footer .container-fluid{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.paginacion, .btn-blue, .paginacion-next{
+.paginacion, .btn-blue, .paginacion-next, .previous, .next{
     background-color: #00159b;
     color: #fff;
     padding: 9px;
     text-transform: uppercase;
 }
+
 .active-pagination{
     background-color: #07a5c9;
     color: #fff;
@@ -683,7 +684,7 @@ footer .container-fluid{
     width: 25px;
 }
 
-.paginacion-next{
+.paginacion-next, .next{
     width: 75px;
     display: inline-block;
     padding: 5px 20px 5px 0;
@@ -693,6 +694,18 @@ footer .container-fluid{
     background-repeat: no-repeat;
     background-size: 15px 12px;
     background-position: 90% 50%;
+}
+
+.previous{
+    width: 120px;
+    display: inline-block;
+    padding: 5px 0px 5px 20px;
+    line-height: normal;
+    text-align: center;
+    background-image: url('../images/icons/right-arrow.png');
+    background-repeat: no-repeat;
+    background-size: 15px 12px;
+    background-position: 5% 50%;
 }
 .paginacion-next span{
     display: inline-block;
