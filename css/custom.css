@@ -697,9 +697,9 @@ footer .container-fluid{
 }
 
 .previous{
-    width: 120px;
+    width: 110px;
     display: inline-block;
-    padding: 5px 0px 5px 20px;
+    padding: 5px 0px 5px 15px;
     line-height: normal;
     text-align: center;
     background-image: url('../images/icons/right-arrow.png');
