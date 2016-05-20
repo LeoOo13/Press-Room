@@ -1019,8 +1019,10 @@ footer .youtube{
 }
 .press-kit-asset .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption .asset-title{
     margin-left: 0;
-    color: #FFF;
     margin-bottom: 10px;
+}
+.press-kit-asset .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption .asset-title a{
+    color: #FFF;
 }
 
 .press-kit-asset .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption .asset-content{
