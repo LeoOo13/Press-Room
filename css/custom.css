@@ -995,6 +995,10 @@ footer .youtube{
     padding-bottom: 20px;
 }
 
+.press-news-asset.portlet-asset-publisher .asset-abstract {
+    height: 175px;
+}
+
 .press-news-asset .portlet-body > .asset-abstract:first-of-type{
     position: relative;
     background-image: url('../images/BigGrandLuxxeNuevoVallarta.png');
