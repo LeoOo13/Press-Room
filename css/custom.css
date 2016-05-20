@@ -707,6 +707,12 @@ footer .container-fluid{
     background-size: 15px 12px;
     background-position: 5% 50%;
 }
+
+.previous:hover, .next:hover{
+    color: #FFF;
+    text-decoration:none;
+}
+
 .paginacion-next span{
     display: inline-block;
 }
