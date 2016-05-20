@@ -987,7 +987,7 @@ footer .youtube{
 
 /*Asset publisher press news*/
 
-.press-kit-asset .default-asset-publisher{
+.press-news-asset .default-asset-publisher{
     position: relative;
     padding-top: 20px;
     border-bottom: 1px solid #cecece;
@@ -995,7 +995,7 @@ footer .youtube{
     padding-bottom: 20px;
 }
 
-.press-kit-asset .portlet-body > .asset-abstract:first-of-type{
+.press-news-asset .portlet-body > .asset-abstract:first-of-type{
     position: relative;
     background-image: url('../images/BigGrandLuxxeNuevoVallarta.png');
     background-position: 50% 50%;
@@ -1004,7 +1004,7 @@ footer .youtube{
     height: 450px;
     padding:0
 }
-.press-kit-asset .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption{
+.press-news-asset .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption{
     width: 100%;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.75);
@@ -1054,11 +1054,11 @@ footer .youtube{
 }
 /*Asset publisher Press Release*/
 /*ELIMINAR ESTE SELECTOR*/
-.press-release-asset .asset-small-image, .press-news-asset .asset-small-image{
+.press-release-asset .asset-small-image, .press-kit-asset .asset-small-image{
     display: none;
 }
 
-/*Asset publisher press news*/
+/*Asset publisher press kit*/
 .press-kit-asset.portlet-asset-publisher .asset-more a{
     background-color: transparent;
     padding: 0;
