@@ -1014,33 +1014,33 @@ footer .youtube{
     padding: 15px 30px 15px 20px;
 }
 
-.press-kit-asset .portlet-body > .asset-abstract:first-of-type .asset-small-image{
+.press-news-asset .portlet-body > .asset-abstract:first-of-type .asset-small-image{
     position: absolute;
     opacity: 0;
 }
-.press-kit-asset .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption .asset-title{
+.press-news-asset .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption .asset-title{
     margin-left: 0;
     margin-bottom: 10px;
 }
-.press-kit-asset .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption .asset-title a{
+.press-news-asset .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption .asset-title a{
     color: #FFF;
 }
 
-.press-kit-asset .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption .asset-content{
+.press-news-asset .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption .asset-content{
     margin:0;
 }
 
-.press-kit-asset.portlet-asset-publisher .asset-title {
+.press-news-asset.portlet-asset-publisher .asset-title {
     margin-left: 35.33333333%;
     margin-bottom: 5px;
 }
 
-.press-kit-asset.portlet-asset-publisher .asset-content{
+.press-news-asset.portlet-asset-publisher .asset-content{
     margin-left: 35.33333333%;
     margin-right: 0;
 }
 
-.press-kit-asset.portlet-asset-publisher .asset-small-image{
+.press-news-asset.portlet-asset-publisher .asset-small-image{
     position: absolute;
     opacity: 1;
     top: 10px;
@@ -1049,7 +1049,7 @@ footer .youtube{
     padding: 0;
 }
 
-.press-kit-asset.portlet-asset-publisher .asset-small-image img{
+.press-news-asset.portlet-asset-publisher .asset-small-image img{
     width: 100%;
 }
 /*Asset publisher Press Release*/
@@ -1059,7 +1059,7 @@ footer .youtube{
 }
 
 /*Asset publisher press news*/
-.press-news-asset.portlet-asset-publisher .asset-more a{
+.press-kit-asset.portlet-asset-publisher .asset-more a{
     background-color: transparent;
     padding: 0;
     font-size: 14px;
@@ -1070,7 +1070,7 @@ footer .youtube{
     color: #2189D8;
     text-transform: uppercase;
 }
-.press-news-asset.portlet-asset-publisher .asset-more a:hover{
+.press-kit-asset.portlet-asset-publisher .asset-more a:hover{
     color: #23527C;
     text-decoration: underline;
 }
