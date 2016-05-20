@@ -894,8 +894,7 @@ footer .youtube{
 .fb-share-button iframe, .fb-share-button span{
     width: 60px !important;
     height: 20px !important;
-    /*overflow: visible !important;
-    margin-top: -3px;*/
+    margin-top: -5px;
 }
 
 .fb-share-button {
@@ -1103,13 +1102,11 @@ footer .youtube{
 }
 
 /*Asset publisher full content*/
-.press-kit-asset.portlet-asset-publisher .asset-full-content .asset-content{
-    margin: 0px;
-}
-
+.press-kit-asset.portlet-asset-publisher .asset-full-content .asset-content,
 .press-news-asset.portlet-asset-publisher .asset-full-content .asset-content{
     margin: 0px;
 }
+
 /*** Sobreescritura de Estilos Liferay ***/
 
 .portlet-asset-publisher .asset-title{
