@@ -1015,7 +1015,8 @@ footer .youtube{
 }
 
 .press-kit-asset .portlet-body > .asset-abstract:first-of-type .asset-small-image{
-    display:none;
+    position: absolute;
+    opacity: 0;
 }
 .press-kit-asset .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption .asset-title{
     margin-left: 0;
@@ -1041,6 +1042,7 @@ footer .youtube{
 
 .press-kit-asset.portlet-asset-publisher .asset-small-image{
     position: absolute;
+    opacity: 1;
     top: 10px;
     left: 0;
     width: 33.33333333%;
