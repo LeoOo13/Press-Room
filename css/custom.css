@@ -1004,11 +1004,21 @@ footer .youtube{
     height: 450px;
     padding:0
 }
+.press-kit-asset .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption{
+    width: 100%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    font-size: 12px;
+    bottom: 0;
+    padding: 15px 30px 15px 20px;
+}
 
 .press-kit-asset .portlet-body > .asset-abstract:first-of-type .asset-small-image{
     display:none;
 }
-.press-kit-asset .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption .asset-title a{
+.press-kit-asset .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption .asset-title{
+    margin-left: 0;
     color: #FFF;
     margin-bottom: 10px;
 }
