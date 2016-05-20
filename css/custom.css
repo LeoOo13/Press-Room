@@ -1059,6 +1059,10 @@ footer .youtube{
 }
 
 /*Asset publisher press kit*/
+.press-kit-asset.portlet-asset-publisher .asset-abstract .asset-content{
+    margin-left: 0;
+}
+
 .press-kit-asset.portlet-asset-publisher .asset-more a{
     background-color: transparent;
     padding: 0;
