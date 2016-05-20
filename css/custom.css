@@ -1107,6 +1107,9 @@ footer .youtube{
     margin: 0px;
 }
 
+.press-news-asset.portlet-asset-publisher .asset-full-content .asset-content{
+    margin: 0px;
+}
 /*** Sobreescritura de Estilos Liferay ***/
 
 .portlet-asset-publisher .asset-title{
