@@ -534,6 +534,7 @@ footer .container-fluid{
     width: 100%;
 }
 .cuadro-banner{
+    text-transform: uppercase;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.75);
     position: absolute;
