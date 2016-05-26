@@ -1,4 +1,9 @@
 /*General styles*/
+
+.tag-items a{
+    white-space: normal!important;
+}
+
 .nopadding{
     padding: 0;
 }
