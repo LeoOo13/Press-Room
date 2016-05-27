@@ -30,6 +30,34 @@ $(document).ready(function(){
     $(".press-news-asset .portlet-body > .asset-abstract:first-of-type .asset-content").appendTo(".abstract-custom-caption");
     $(".press-news-asset .portlet-body > .asset-abstract:first-of-type .asset-metadata").appendTo(".abstract-custom-caption");
 
+    /*Pagination*/
+    var funcion = $(".page-selector .aui-field-input-select").attr("onchange");
+    var paginacion = "<div class='pag-num'>";
+    actual = $(".page-selector .aui-field-input-select").val();
+    ultimo=0;
+
+    /*boton de previos*/
+    if (actual > 1) {
+        paginacion+="<a class='paginacion previous' onclick='pags(" + (actual - 1) + ")'><span>Previous</span></a>"
+    };
+    /*Paginas por numero*/
+    $(".page-selector .aui-field-input-select option").each(function() {
+        if (actual == $(this).val()) {/*pagina activa*/
+            paginacion += "<a class='paginacion active-pagination' onclick='pags(" + $(this).val() + ")'><span>" + $(this).val() + "</span></a>";
+        }else{
+            paginacion += "<a class='paginacion' onclick='pags(" + $(this).val() + ")'><span>" + $(this).val() + "</span></a>";
+        } 
+        ultimo=$(this).val();
+    });
+    /*boton siguiente*/
+    if ( ultimo == actual ) {
+        paginacion += "</div>";            
+    }else{
+        actual = parseInt(actual) + 1;
+        paginacion += "<a class='paginacion paginacion-next' onclick='pags(" + actual + ")'><span>Next</span></a></div>";    
+    }
+    $(".press-news-asset .portlet-body .taglib-page-iterator").append(paginacion);
+
     /*Portlet search This site configuration*/
     $(".portlet-search form select option").each(function(){
     	if($(this).val() != "0")
@@ -38,3 +66,10 @@ $(document).ready(function(){
     		$(this).removeAttr("selected");
 	});
 });
+
+
+
+    function pags(num) {
+        $(".page-selector .aui-field-input-select").val(num);
+        $(".page-selector .aui-field-input-select").trigger("change");
+    }
