@@ -1092,3 +1092,17 @@ ul.nav.nav-social {
 
 .instagram{
     margin-right: 0 !important;
+}
+.lateral-search{
+    margin-top: 20px;
+}
+button#side-menu-toggle {
+    background-image: none;
+    text-shadow: none;
+}
+button#side-menu-toggle:hover {
+    background-color: transparent;
+}
+.socialNet .nav-social a:hover {
+    background-color: transparent;
+}
