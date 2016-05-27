@@ -645,6 +645,10 @@ footer .container-fluid{
     color: #fff;
 }
 
+.taglib-page-iterator div:not(.pag-num) {
+    display: none;
+}
+
 .cuadro-caption .btn-blue{
     padding: 10px 8px 9px;
 }
@@ -730,9 +734,7 @@ footer .container-fluid{
     color: #fff;
     text-decoration: none;
 }
-.pag-num{
-    margin-left: -14px;
-}
+
 /* ---------------- Media Contact ---------------- */
 .container-contact{
     margin-top: 20px;
