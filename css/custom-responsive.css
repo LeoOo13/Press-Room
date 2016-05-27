@@ -19,6 +19,35 @@
         display: inline-block;
         color: #fff;
     }
+
+    /*Topics component*/
+
+    .stay-connected-container .portlet{
+        background-color: transparent;
+    }
+
+    .stay-connected-container .portlet .portlet-body input{
+        background-color: #FFF;
+    }
+
+    .stay-connected-container .input-group{
+        border: none;
+    }
+
+    .portlet-asset-tags-navigation .tag-items{
+        display:table;
+    }
+
+    .portlet-asset-tags-navigation .tag-items li{
+        display: inline-block;
+        vertical-align: middle;
+        width: 25%;
+    }
+    .portlet-asset-tags-navigation .tag-items li a{
+        white-space: normal;
+        font-size: 12px;
+    }
+
     /*Responsive*/
 
     /*---------------Newsletter------------------*/
@@ -361,6 +390,13 @@
         display: inline-block;
         margin-left: 5px;
     }
+
+    /*Container noticias*/
+
+    .press-news-asset.portlet-asset-publisher .asset-abstract{
+        height: 180px;
+    }
+
     /* ---------------- Summary ---------------- */
     .separador{
         padding: 0px;
@@ -733,6 +769,9 @@
     .pdf{
         padding-left: 0;
     }
+
+    /*container noticias*/
+
 }
 
 @media(max-width:767px){
@@ -749,7 +788,6 @@
         padding: 5px 0px;
         text-align: center;
         line-height: normal;
-        width: 25px;
     }
 
     .pag-num{
@@ -807,6 +845,35 @@
         font-size: 18px;
         letter-spacing: 0px;
     }
+
+    /*Topics component*/
+
+    .stay-connected-container .portlet{
+        background-color: transparent;
+    }
+
+    .stay-connected-container .portlet .portlet-body input{
+        background-color: #FFF;
+    }
+
+    .stay-connected-container .input-group{
+        border: none;
+    }
+
+    .portlet-asset-tags-navigation .tag-items{
+        display:table;
+    }
+
+    .portlet-asset-tags-navigation .tag-items li{
+        display: inline-block;
+        vertical-align: middle;
+        width: 33.33%;
+    }
+    .portlet-asset-tags-navigation .tag-items li a{
+        white-space: normal;
+        font-size: 12px;
+    }
+
     /*Featured story*/
     .titulo-section{
         margin: 20px 0px;
@@ -822,8 +889,9 @@
     }
 
     /*Container noticias*/
-    .container-noticias h4{
-        margin-top: 0px;
+
+    .press-news-asset.portlet-asset-publisher .asset-abstract{
+        height: 320px;
     }
 
     

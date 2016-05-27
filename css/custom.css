@@ -1,9 +1,18 @@
 /*General styles*/
+
+.tag-items a{
+    white-space: normal!important;
+}
+
 .nopadding{
     padding: 0;
 }
 a{
     outline: none!important;
+}
+
+.portlet-search form select{
+    display: none!important;
 }
 
 /*Menú*/
@@ -534,6 +543,7 @@ footer .container-fluid{
     width: 100%;
 }
 .cuadro-banner{
+    text-transform: uppercase;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.75);
     position: absolute;
@@ -627,15 +637,20 @@ footer .container-fluid{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.paginacion, .btn-blue, .paginacion-next{
+.paginacion, .btn-blue, .paginacion-next, .previous, .next{
     background-color: #00159b;
     color: #fff;
     padding: 9px;
     text-transform: uppercase;
 }
+
 .active-pagination{
     background-color: #07a5c9;
     color: #fff;
+}
+
+.taglib-page-iterator div:not(.pag-num) {
+    display: none;
 }
 
 .cuadro-caption .btn-blue{
@@ -681,9 +696,10 @@ footer .container-fluid{
     text-align: center;
     line-height: normal;
     width: 25px;
+    margin: 0 3px 15px 0;
 }
 
-.paginacion-next{
+.paginacion-next, .next{
     width: 75px;
     display: inline-block;
     padding: 5px 20px 5px 0;
@@ -694,6 +710,24 @@ footer .container-fluid{
     background-size: 15px 12px;
     background-position: 90% 50%;
 }
+
+.previous{
+    width: 110px;
+    display: inline-block;
+    padding: 5px 0px 5px 15px;
+    line-height: normal;
+    text-align: center;
+    background-image: url('../images/icons/left-arrow.png');
+    background-repeat: no-repeat;
+    background-size: 15px 12px;
+    background-position: 5% 50%;
+}
+
+.previous:hover, .next:hover{
+    color: #FFF;
+    text-decoration:none;
+}
+
 .paginacion-next span{
     display: inline-block;
 }
@@ -705,9 +739,7 @@ footer .container-fluid{
     color: #fff;
     text-decoration: none;
 }
-.pag-num{
-    margin-left: -14px;
-}
+
 /* ---------------- Media Contact ---------------- */
 .container-contact{
     margin-top: 20px;
@@ -768,15 +800,15 @@ footer .container-fluid{
 /******************MOBILE STYLES**************************/
 /*general styles*/
 *, .navbar-nav p, .container-contact h3{
-	font-family: "gothamHTF-book";
+    font-family: "gothamHTF-book";
 }
 
 h3, h1, .cuadro-informativo p, .nav-links li a, .titulo-section, .slide-content-text{
-	font-family: "gothamHTF-light";
+    font-family: "gothamHTF-light";
 }
 
 .cuadro-baner p, .navbar-nav span, .phone-contact, .cuadro-informativo h4, .socialNet li p, .nav-links li h3, .fecha, h4, .link, .btn-blue span, .contact p:first-child{
-	font-family: "gothamHTF-bold";
+    font-family: "gothamHTF-bold";
 }
 
 footer .site-map li a{
@@ -807,12 +839,12 @@ footer .reservations .booking a, footer address{
 }
 
 .twitter {
-	width: 25px;
+    width: 25px;
     background-image: url("../images/logos/twitter.png");
 }
 
 .instagram {
-	width: 28px;
+    width: 28px;
     background-image: url("../images/logos/instagram.png");
 }
 
@@ -822,7 +854,7 @@ footer .reservations .booking a, footer address{
 }
 
 .youtube {
-	width: 25px;
+    width: 25px;
     background-image: url("../images/logos/youtube.png");
 }
 
@@ -875,8 +907,7 @@ footer .youtube{
 .fb-share-button iframe, .fb-share-button span{
     width: 60px !important;
     height: 20px !important;
-    /*overflow: visible !important;
-    margin-top: -3px;*/
+    margin-top: -5px;
 }
 
 .fb-share-button {
@@ -986,44 +1017,88 @@ footer .youtube{
 }
 
 /*Asset publisher press news*/
-.press-kit-asset .default-asset-publisher{
+
+.press-news-asset .default-asset-publisher{
     position: relative;
     padding-top: 20px;
-    border-top: 1px solid #cecece;
-    margin-bottom: 20px;
-}
-.press-kit-asset .portlet-body .final-separator{
     border-bottom: 1px solid #cecece;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
-.press-kit-asset.portlet-asset-publisher .asset-title {
+
+.press-news-asset.portlet-asset-publisher .asset-abstract {
+    height: 175px;
+}
+
+.press-news-asset .portlet-body > .asset-abstract:first-of-type{
+    position: relative;
+    background-image: url('../images/BigGrandLuxxeNuevoVallarta.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    padding:0
+}
+.press-news-asset .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption{
+    width: 100%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    font-size: 12px;
+    bottom: 0;
+    padding: 15px 30px 15px 20px;
+}
+
+.press-news-asset .portlet-body > .asset-abstract:first-of-type .asset-small-image{
+    position: absolute;
+    opacity: 0;
+}
+.press-news-asset .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption .asset-title{
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+.press-news-asset .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption .asset-title a{
+    color: #FFF;
+}
+
+.press-news-asset .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption .asset-content{
+    margin:0;
+}
+
+.press-news-asset.portlet-asset-publisher .asset-title {
     margin-left: 35.33333333%;
     margin-bottom: 5px;
 }
 
-.press-kit-asset.portlet-asset-publisher .asset-content{
+.press-news-asset.portlet-asset-publisher .asset-content{
     margin-left: 35.33333333%;
     margin-right: 0;
 }
 
-.press-kit-asset.portlet-asset-publisher .asset-small-image{
+.press-news-asset.portlet-asset-publisher .asset-small-image{
     position: absolute;
+    opacity: 1;
     top: 10px;
     left: 0;
     width: 33.33333333%;
     padding: 0;
 }
 
-.press-kit-asset.portlet-asset-publisher .asset-small-image img{
+.press-news-asset.portlet-asset-publisher .asset-small-image img{
     width: 100%;
 }
 /*Asset publisher Press Release*/
 /*ELIMINAR ESTE SELECTOR*/
-.press-release-asset .asset-small-image, .press-news-asset .asset-small-image{
+.press-release-asset .asset-small-image, .press-kit-asset .asset-small-image{
     display: none;
 }
 
-/*Asset publisher press news*/
-.press-news-asset.portlet-asset-publisher .asset-more a{
+/*Asset publisher press kit*/
+.press-kit-asset.portlet-asset-publisher .asset-abstract .asset-content{
+    margin-left: 0;
+}
+
+.press-kit-asset.portlet-asset-publisher .asset-more a{
     background-color: transparent;
     padding: 0;
     font-size: 14px;
@@ -1034,9 +1109,15 @@ footer .youtube{
     color: #2189D8;
     text-transform: uppercase;
 }
-.press-news-asset.portlet-asset-publisher .asset-more a:hover{
+.press-kit-asset.portlet-asset-publisher .asset-more a:hover{
     color: #23527C;
     text-decoration: underline;
+}
+
+/*Asset publisher full content*/
+.press-kit-asset.portlet-asset-publisher .asset-full-content .asset-content,
+.press-news-asset.portlet-asset-publisher .asset-full-content .asset-content{
+    margin: 0px;
 }
 
 /*** Sobreescritura de Estilos Liferay ***/
@@ -1058,18 +1139,18 @@ footer .youtube{
 }
 
 /*search*/
-#p_p_id_3_ select{
-    display:none;
+.portlet-search .portlet-content{
+    padding: 10px 0;
 }
 
-#p_p_id_3_ input:nth-child(10){
-    margin-left:-10px;
-    width:106%;
+.portlet-search input[name$=keywords]{
+    width: 100%;
     height: 35px;
+    padding: 0 10px;
     background: none;
 }
 
-form[name="ctem_3_fm"] input:last-child{
+.portlet-search form input:last-child{
     position: absolute;
     right: 15px;
     margin-top: -25px;
