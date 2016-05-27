@@ -696,6 +696,7 @@ footer .container-fluid{
     text-align: center;
     line-height: normal;
     width: 25px;
+    margin: 0 3px 15px 0;
 }
 
 .paginacion-next, .next{
