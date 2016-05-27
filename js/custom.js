@@ -29,4 +29,12 @@ $(document).ready(function(){
     $(".press-news-asset .portlet-body > .asset-abstract:first-of-type .asset-title").appendTo(".abstract-custom-caption");
     $(".press-news-asset .portlet-body > .asset-abstract:first-of-type .asset-content").appendTo(".abstract-custom-caption");
     $(".press-news-asset .portlet-body > .asset-abstract:first-of-type .asset-metadata").appendTo(".abstract-custom-caption");
+
+    /*Portlet search This site configuration*/
+    $(".portlet-search form select option").each(function(){
+    	if($(this).val() != "0")
+    		$(this).attr("selected","");
+    	else
+    		$(this).removeAttr("selected");
+	});
 });

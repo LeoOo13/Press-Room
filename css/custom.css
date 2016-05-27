@@ -11,6 +11,10 @@ a{
     outline: none!important;
 }
 
+.portlet-search form select{
+    display: none!important;
+}
+
 /*Menú*/
 .navbar-wrapper .navbar-main-wrapper .navbar-nav{
     margin-right: 0px;
