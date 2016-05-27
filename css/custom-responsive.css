@@ -390,6 +390,13 @@
         display: inline-block;
         margin-left: 5px;
     }
+
+    /*Container noticias*/
+
+    .press-news-asset.portlet-asset-publisher .asset-abstract{
+        height: 180px;
+    }
+
     /* ---------------- Summary ---------------- */
     .separador{
         padding: 0px;
@@ -885,7 +892,7 @@
     /*Container noticias*/
 
     .press-news-asset.portlet-asset-publisher .asset-abstract{
-        height: 180px;
+        height: 320px;
     }
 
     
