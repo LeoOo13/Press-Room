@@ -475,7 +475,6 @@
         color: #fff;
     }
     .pag-num{
-        margin-left: -14px;
         margin-bottom: 10px;
     }
     /* ---------------- Media Contact ---------------- */
@@ -663,6 +662,10 @@
 
     .menu-lateral .glyphicon-search{
         color: #FFF;
+    }
+
+    .menu-lateral .portlet-search form input[type="image"]{
+        right: 40px;
     }
 
     .input-group{

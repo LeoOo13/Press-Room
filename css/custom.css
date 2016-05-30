@@ -1150,7 +1150,7 @@ footer .youtube{
     background: none;
 }
 
-.portlet-search form input:last-child{
+.portlet-search form input[type="image"]{
     position: absolute;
     right: 15px;
     margin-top: -25px;
@@ -1186,4 +1186,13 @@ button#side-menu-toggle:hover {
 }
 .socialNet .nav-social a:hover {
     background-color: transparent;
+}
+
+/*Busqueda lateral*/
+.lateral-search section.portlet{
+    background-color: #000;
+}
+
+.lateral-search section.portlet input:not([type="image"]){
+    border:2px solid #fff;
 }
