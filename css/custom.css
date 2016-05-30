@@ -121,6 +121,11 @@ a{
 .social-counter{
     margin: 20px 0px;
 }
+
+.taglib-social-bookmarks{
+    display: none;
+}
+
 a.btn-blue{
     color: white;
     text-decoration: initial;
@@ -1160,6 +1165,9 @@ footer .youtube{
     margin-top: -25px;
 }
 
+#side-menu-toggle{
+    background: none;
+}
 /*stay connected*/
 
 ul.nav.nav-social {
