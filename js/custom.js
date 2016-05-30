@@ -56,7 +56,18 @@ $(document).ready(function(){
         actual = parseInt(actual) + 1;
         paginacion += "<a class='paginacion paginacion-next' onclick='pags(" + actual + ")'><span>Next</span></a></div>";    
     }
-    $(".press-news-asset .portlet-body .taglib-page-iterator").append(paginacion);
+
+    if ($(".press-news-asset .portlet-body .taglib-page-iterator").length) {
+        $(".press-news-asset .portlet-body .taglib-page-iterator").append(paginacion);
+    }else 
+    if ($(".press-kit-asset .portlet-body .taglib-page-iterator").length) {
+        $(".press-kit-asset .portlet-body .taglib-page-iterator").append(paginacion);
+    }else 
+    if ($(".press-release-asset .portlet-body .taglib-page-iterator").length) {
+        $(".press-release-asset .portlet-body .taglib-page-iterator").append(paginacion);
+    };
+
+    
 
     /*Portlet search This site configuration*/
     $(".portlet-search form select option").each(function(){
