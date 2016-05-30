@@ -984,6 +984,10 @@ footer .youtube{
 }
 
 /*Asset Publisher general styles*/
+.press-release-asset .header-title{
+    display: none;
+}
+
 .portlet-asset-publisher .asset-title{    
     font-family: "gothamHTF-bold";
     font-size: 18px;
@@ -1027,7 +1031,7 @@ footer .youtube{
 }
 
 .press-news-asset.portlet-asset-publisher .asset-abstract {
-    height: 175px;
+    height: auto;
 }
 
 .press-news-asset .portlet-body > .asset-abstract:first-of-type{
