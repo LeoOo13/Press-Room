@@ -11,6 +11,14 @@
 .banner-wrapper{
     margin-top: 0;
 }
+#navigation{
+    clear: none;
+    background: none;
+}
+#navigation a:hover{
+    background: none;
+    text-shadow: none;
+}
 .site-map .nav > li > a > img {
     max-width: 150px;
     margin-top: 15px;
@@ -49,6 +57,7 @@ a{
     padding-right: 15px;
     padding-left: 15px;
     border: 0;
+    border-radius: 0;
 }
 
 .navbar-wrapper .navbar-brand{
@@ -75,7 +84,8 @@ a{
     vertical-align: middle;
 }
 
-.nav.navbar-nav.navbar-right{
+.nav.navbar-nav.navbar-right,
+#navigation ul{
     margin: 10px 0 0;
 }
 .nav.navbar-nav.navbar-right>li>a{
