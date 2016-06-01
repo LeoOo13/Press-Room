@@ -15,7 +15,7 @@
     clear: none;
     background: none;
 }
-#navigation a:hover{
+#navigation a:hover,#navigation a:focus{
     background: none;
     text-shadow: none;
 }
