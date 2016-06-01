@@ -8,6 +8,9 @@
     max-width: none;
     min-width: 0;
 }
+#banner{
+    margin-top: 20px;
+}
 .banner-wrapper{
     margin-top: 0;
 }
