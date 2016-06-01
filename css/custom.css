@@ -556,7 +556,6 @@ footer .container-fluid{
 }
 .footer-connect .footer-connect-label{
     font-family: 'gotham_mediumregular';
-    display: none;
 }
 .footer-connect .nav li{
     display: inline-block;
@@ -876,7 +875,7 @@ footer .reservations .booking a, footer address{
 }
 
 /*social*/
-.nav-social{
+.stay-connected-container .nav-social{
     padding: 0 15px;
 }
 .twitter, .instagram, .facebook, .youtube{
@@ -935,7 +934,17 @@ footer{
     font-family: 'gotham_mediumregular';
     font-size: 16pt;
 }
-
+footer .facebook, footer .twitter, footer .youtube, footer .instagram {
+  height: 14px;
+  background-size: auto 100%;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  margin-top: 8px;
+  margin-right: 8px;
+  float: left;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
 footer .nav-social li a{
     height: 20px;
 }
@@ -945,7 +954,7 @@ footer .instagram, footer .facebook{
 }
 
 footer .twitter{
-    width: 23;
+    width: 23px;
 }
 
 footer .youtube{
@@ -1213,20 +1222,19 @@ footer .youtube{
 }
 /*stay connected*/
 
-ul.nav.nav-social {
-    text-align: center;
+.stay-connected-container ul.nav.nav-social {
     margin: 0;
 }
 
-.nav>li>a.facebook{
+.stay-connected-container .nav>li>a.facebook{
     margin-left:0px
 }
 
-.twitter{
+.stay-connected-container .twitter{
     margin-left: 0 !important;
 }
 
-.instagram{
+.stay-connected-container .instagram{
     margin-right: 0 !important;
 }
 .lateral-search{
