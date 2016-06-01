@@ -15,7 +15,13 @@
     clear: none;
     background: none;
 }
-#navigation a:hover,#navigation a:focus{
+#navigation .selected a, 
+#navigation li.hover a, 
+#navigation a:hover, 
+#navigation a:focus, 
+#navigation .child-menu li a, 
+#navigation .yui3-dd-dragging, 
+.lfr-navigation-proxy{
     background: none;
     text-shadow: none;
 }
