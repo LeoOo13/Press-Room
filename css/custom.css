@@ -1399,3 +1399,13 @@ button#side-menu-toggle:hover {
 .lateral-search section.portlet input:not([type="image"]){
     border:2px solid #fff;
 }
+
+
+/*top de la busqueda (provisional)*/
+#content{
+    margin-top: 80px;
+}
+
+.pressroomlayout{
+    margin-top: -80px;
+}
