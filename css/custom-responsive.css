@@ -393,9 +393,9 @@
 
     /*Container noticias*/
 
-    /*.press-news-asset.portlet-asset-publisher .asset-abstract{
-        height: 180px;
-    }*/
+    .press-news-asset.portlet-asset-publisher .asset-abstract{
+        min-height: 195px;
+    }
 
     /* ---------------- Summary ---------------- */
     .separador{
