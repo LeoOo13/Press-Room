@@ -1,44 +1,3 @@
-/* Custom GQ Style overwrite */
-.portlet-content, 
-.portlet-minimized .portlet-content-container,
-.portlet-column-content{
-    padding: 0; 
-}
-#wrapper{ 
-    max-width: none;
-    min-width: 0;
-}
-#banner{
-    margin-top: 0px;
-}
-.banner-wrapper{
-    margin-top: 62px!important;
-}
-#navigation{
-    clear: none;
-    background: none;
-}
-#navigation .selected a, 
-#navigation li.hover a, 
-#navigation a:hover, 
-#navigation a:focus, 
-#navigation .child-menu li a, 
-#navigation .yui3-dd-dragging, 
-.lfr-navigation-proxy{
-    background: none;
-    text-shadow: none;
-}
-.site-map .nav > li > a > img {
-    max-width: 150px;
-    margin-top: 15px;
-}
-.site-map .nav{
-    margin: 0;
-}
-.view-admin #banner {
-    margin-top: 1.4em;
-}
-
 /*General styles*/
 
 .tag-items a{
@@ -66,7 +25,6 @@ a{
     padding-right: 15px;
     padding-left: 15px;
     border: 0;
-    border-radius: 0;
 }
 
 .navbar-wrapper .navbar-brand{
@@ -93,8 +51,7 @@ a{
     vertical-align: middle;
 }
 
-.nav.navbar-nav.navbar-right,
-#navigation ul{
+.nav.navbar-nav.navbar-right{
     margin: 10px 0 0;
 }
 .nav.navbar-nav.navbar-right>li>a{
@@ -556,6 +513,7 @@ footer .container-fluid{
 }
 .footer-connect .footer-connect-label{
     font-family: 'gotham_mediumregular';
+    display: none;
 }
 .footer-connect .nav li{
     display: inline-block;
@@ -689,7 +647,6 @@ footer .container-fluid{
     color: #fff;
     padding: 9px;
     text-transform: uppercase;
-    cursor: pointer;
 }
 
 .active-pagination{
@@ -876,7 +833,7 @@ footer .reservations .booking a, footer address{
 }
 
 /*social*/
-.stay-connected-container .nav-social{
+.nav-social{
     padding: 0 15px;
 }
 .twitter, .instagram, .facebook, .youtube{
@@ -935,17 +892,7 @@ footer{
     font-family: 'gotham_mediumregular';
     font-size: 16pt;
 }
-footer .facebook, footer .twitter, footer .youtube, footer .instagram {
-  height: 14px;
-  background-size: auto 100%;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  margin-top: 8px;
-  margin-right: 8px;
-  float: left;
-  opacity: 0.8;
-  filter: alpha(opacity=80);
-}
+
 footer .nav-social li a{
     height: 20px;
 }
@@ -955,7 +902,7 @@ footer .instagram, footer .facebook{
 }
 
 footer .twitter{
-    width: 23px;
+    width: 23;
 }
 
 footer .youtube{
@@ -1090,10 +1037,9 @@ footer .youtube{
 
 .press-news-asset.portlet-asset-publisher .asset-abstract {
     height: auto;
-    min-height: 170px;
 }
 
-.press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type{
+.press-news-asset .portlet-body > .asset-abstract:first-of-type{
     position: relative;
     background-image: url('../images/BigGrandLuxxeNuevoVallarta.png');
     background-position: 50% 50%;
@@ -1102,7 +1048,7 @@ footer .youtube{
     height: 450px;
     padding:0
 }
-.press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption{
+.press-news-asset .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption{
     width: 100%;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.75);
@@ -1112,18 +1058,19 @@ footer .youtube{
     padding: 15px 30px 15px 20px;
 }
 
-.press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type .asset-small-image{
-    display: none;
+.press-news-asset .portlet-body > .asset-abstract:first-of-type .asset-small-image{
+    position: absolute;
+    opacity: 0;
 }
-.press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption .asset-title{
+.press-news-asset .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption .asset-title{
     margin-left: 0;
     margin-bottom: 10px;
 }
-.press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption .asset-title a{
+.press-news-asset .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption .asset-title a{
     color: #FFF;
 }
 
-.press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption .asset-content{
+.press-news-asset .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption .asset-content{
     margin:0;
 }
 
@@ -1221,160 +1168,22 @@ footer .youtube{
 #side-menu-toggle{
     background: none;
 }
-
-/*Search section*/
-div#column-1 > div.portlet-search .portlet-topper{
-    background: none;
-    border: none;
-    border-radius: 0px;
-    padding: 10px 0px 0px;
-}
-
-div#column-1 > div.portlet-search .portlet-title .portlet-title-text{
-    font-size: 24px;
-    font-family: "gothamHTF-bold";
-    font-weight: 600;
-    text-shadow: none;
-}
-div#column-1 > div.portlet-search .portlet-title span:not(.portlet-title-text){
-    display: none;
-}
-
-div#column-1 > div.portlet-search a.portlet-icon-back{
-    color: #2189D8;
-    text-shadow: none;
-}
-div#column-1 > div.portlet-search a.portlet-icon-back:hover{
-    color: #23527C;
-}
-
-div#column-1 > div.portlet-search .aui-fieldset-content .aui-field{
-    width: 33%;
-}
-div#column-1 > div.portlet-search .aui-field .aui-field-content{
-    width: 100%;
-}
-
-div#column-1 > div.portlet-search input[name$="keywords"]{
-    display: block;
-    width: 100%;
-    border: 2px solid #cecece;
-    padding-right: 50px;
-}
-div#column-1 > div.portlet-search form .aui-fieldset {
-    padding-bottom: 15px;
-    border-bottom: thin solid #cecece;
-    margin-bottom: 1em;
-}
-div#column-1 > div.portlet-search form .aui-fieldset-content span:nth-child(3) input[type="image"],
-div#column-1 > div.portlet-search form .aui-fieldset-content span:nth-child(4) input[type="image"]{
-    margin-top: 0;
-    position: absolute;
-    right: none;
-    top: 10px;
-}
-div#column-1 > div.portlet-search form .aui-fieldset-content span:nth-child(3) input[type="image"]{
-    left: 28.5%;
-}
-div#column-1 > div.portlet-search form .aui-fieldset-content span:nth-child(4) input[type="image"]{
-    left: 30.5%
-}
-/*First-column*/
-div#column-1 > div.portlet-search .aui-column-first .menu-content{
-    padding: 0px 10px;
-    border: thin solid #cecece;
-    margin-right: 15px;
-}
-
-div#column-1 > div.portlet-search .aui-column-first .menu-content .search-facet{
-    border-top: none;
-}
-
-div#column-1 > div.portlet-search .aui-column-first ul>li.facet-value>a{
-    color: #000;
-    font-size: 14px;
-    text-transform: capitalize;
-}
-
-div#column-1 > div.portlet-search .aui-column-first ul>li.facet-value.current-term{
-    background: none;
-    border-bottom: thin solid #cecece;
-    border-radius: 0;
-}
-div#column-1 > div.portlet-search .aui-column-first ul>li.facet-value.current-term>a{
-    font-family: "gothamHTF-bold";
-    font-weight: 600;
-    text-shadow: none;
-    color: #000;
-    text-transform: uppercase;
-}
-
-/*Result container search*/
-.results-row.alt td {
-   background: #FFF;
-}
-
-.taglib-search-iterator .asset-entry-title img{
-   display:none;
-}
-
-.taglib-search-iterator .asset-entry-title{
-line-height: normal;
-}
-
-.taglib-search-iterator .asset-entry-title a{
-   font-family: "gothamHTF-bold";
-   font-size:18px;
-   color:#333;
-}
-
-.highlight{
-background-color: rgba(50, 161, 189, 0.20);
-   font-family: "gothamHTF-bold";
-}
-
-.aui-searchcontainer-content{
-   border: none;
-}
-
-.portlet-search .search-layout .search-layout-content .result .asset-entry .asset-entry-summary{
-   font-family: "gothamHTF-book";
-}
-
-.taglib-search-iterator td{
-   border-left: none;
-   border-right: none;
-   border-top: none;
-}
-
-.taglib-search-iterator tr{
-   display:block;
-   margin-bottom:25px;
-}
-
-.taglib-search-iterator .results-header, .asset-entry-type, .lfr-template{
-   display:none !important;
-}
-
-.taglib-search-iterator-page-iterator-top{
-   padding: 0px;   
-}
-
 /*stay connected*/
 
-.stay-connected-container ul.nav.nav-social {
+ul.nav.nav-social {
+    text-align: center;
     margin: 0;
 }
 
-.stay-connected-container .nav>li>a.facebook{
+.nav>li>a.facebook{
     margin-left:0px
 }
 
-.stay-connected-container .twitter{
+.twitter{
     margin-left: 0 !important;
 }
 
-.stay-connected-container .instagram{
+.instagram{
     margin-right: 0 !important;
 }
 .lateral-search{
