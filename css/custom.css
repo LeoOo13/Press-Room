@@ -1,4 +1,11 @@
 /* Custom GQ Style overwrite */
+.portlet-title-section-off{
+    display: none;
+}
+.portlet-title-section-on{
+    display: block;
+}
+
 .portlet-content, 
 .portlet-minimized .portlet-content-container,
 .portlet-column-content{
