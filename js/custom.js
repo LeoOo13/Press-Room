@@ -1,4 +1,12 @@
 $(document).ready(function(){
+    /*Title sections off Asset publisher*/
+    if($('.asset-full-content').length > 0){
+        $('.portlet-title-section-on').removeClass('portlet-title-section-on').addClass('portlet-title-section-off');
+        $('.press-news-asset .taglib-header h1.header-title').addClass('portlet-title-section-off');
+    }else{
+        $('.portlet-title-section-off').removeClass('portlet-title-section-off').addClass('portlet-title-section-on');
+    }
+    
 	$(".navbar-toggle").click(function(){
 		if($("body").hasClass("menu-lateral-active")){
 			$("body").removeClass("menu-lateral-active");
