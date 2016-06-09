@@ -883,6 +883,10 @@ footer .reservations .booking a, footer address{
 }
 
 /*social*/
+.stay-connected-container{
+    background-color: #EAEAEA;
+    padding: 15px 20px;
+}
 .stay-connected-container .nav-social{
     padding: 0 15px;
 }
@@ -1029,8 +1033,10 @@ footer .youtube{
 
 .tag-items li{
     float: none;
-    display: block;
+    display: inline-block;
     margin: 0;
+    width: 50%;
+    vertical-align: middle;
 }
 
 .tag-items li > span a{
@@ -1216,7 +1222,7 @@ footer .youtube{
     width: 100%;
     height: 35px;
     padding: 0 10px;
-    background: none;
+    background: #fff;
 }
 
 .portlet-search form input[type="image"]{
@@ -1371,6 +1377,7 @@ background-color: rgba(50, 161, 189, 0.20);
 
 .stay-connected-container ul.nav.nav-social {
     margin: 0;
+    text-align: center;
 }
 
 .stay-connected-container .nav>li>a.facebook{

@@ -757,7 +757,7 @@
     }
     /*iframe twitter*/
     iframe#twitter-widget-2, iframe#twitter-widget-4 {
-        width: 75% !important;
+        width: 50% !important;
     }
 
     .social-right{
@@ -833,8 +833,8 @@
         margin-top: 5px;
     }
     /*Banner styles*/
-    .banner-wrapper{
-        min-height: 100px;
+    #banner-135818.banner-wrapper{
+        min-height: 100px!important;
         margin-bottom: 0px;
     }
 
@@ -964,8 +964,8 @@
     }
 
     .release-kit .sociales{
-        float: right;
-        margin: 25px 4px;
+        float: left;
+        margin: 25px 0px 25px 10px;
     }
 
     .release-kit  .btn-blue span:first-child{
@@ -973,7 +973,7 @@
     }
     /*iframe twitter*/
     iframe#twitter-widget-2, .social-right, iframe#twitter-widget-4{
-        width: 100% !important;
+        width: 65px !important;
     }
 
     .pdf{
