@@ -1262,7 +1262,7 @@ div#column-1 > div.portlet-search a.portlet-icon-back:hover{
 }
 
 div#column-1 > div.portlet-search .aui-fieldset-content .aui-field{
-    width: 33%;
+    width: 300px;
 }
 div#column-1 > div.portlet-search .aui-field .aui-field-content{
     width: 100%;
@@ -1287,10 +1287,10 @@ div#column-1 > div.portlet-search form .aui-fieldset-content span:nth-child(4) i
     top: 10px;
 }
 div#column-1 > div.portlet-search form .aui-fieldset-content span:nth-child(3) input[type="image"]{
-    left: 28.5%;
+    left: 255px;
 }
 div#column-1 > div.portlet-search form .aui-fieldset-content span:nth-child(4) input[type="image"]{
-    left: 30.5%
+    left: 275px;
 }
 /*First-column*/
 div#column-1 > div.portlet-search .aui-column-first .menu-content{
@@ -1423,3 +1423,4 @@ button#side-menu-toggle:hover {
 .pressroomlayout{
     margin-top: -80px;
 }
+
