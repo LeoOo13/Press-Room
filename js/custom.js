@@ -35,15 +35,6 @@ $(document).ready(function(){
     var imageSource = $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type img.asset-small-image").attr("src");
     $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type").css("background-image","url('" + imageSource + "')");
 
-
-    var pp = $(".active-pagination span").text();
-    if ( pp == 1) { console.log("pagina" + pp)};
-
-    $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type").prepend("<div class='abstract-custom-caption'></div>");
-    $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type .asset-actions").appendTo(".abstract-custom-caption");
-    $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type .asset-title").appendTo(".abstract-custom-caption");
-    $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type .asset-content").appendTo(".abstract-custom-caption");
-    $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type .asset-metadata").appendTo(".abstract-custom-caption");
     
     /*Pagination*/
     var funcion = $(".page-selector .aui-field-input-select").attr("onchange");
@@ -83,7 +74,16 @@ $(document).ready(function(){
     };
 
     
+    var pp = $(".active-pagination span").text();
+    if ( pp == 1) { console.log("pagina" + pp);
 
+    $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type").prepend("<div class='abstract-custom-caption'></div>");
+    $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type .asset-actions").appendTo(".abstract-custom-caption");
+    $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type .asset-title").appendTo(".abstract-custom-caption");
+    $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type .asset-content").appendTo(".abstract-custom-caption");
+    $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type .asset-metadata").appendTo(".abstract-custom-caption");
+
+    };
     /*Portlet search This site configuration*/
     $(".portlet-search form select option").each(function(){
     	if($(this).val() != "0")
