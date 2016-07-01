@@ -32,8 +32,6 @@ $(document).ready(function(){
 			$(this).parent(".col-sm-3").addClass("active");
 	});
 	/*Asset publisher News behavior */
-    var imageSource = $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type img.asset-small-image").attr("src");
-    $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type").css("background-image","url('" + imageSource + "')");
 
     
     /*Pagination*/
@@ -75,15 +73,20 @@ $(document).ready(function(){
 
     
     var pp = $(".active-pagination span").text();
-    if ( pp == 1) { console.log("pagina" + pp);
+    if ( pp == 1) {
+        var imageSource = $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type img.asset-small-image").attr("src");
+        $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type").css("background-image","url('" + imageSource + "')"); 
 
-    $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type").prepend("<div class='abstract-custom-caption'></div>");
-    $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type .asset-actions").appendTo(".abstract-custom-caption");
-    $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type .asset-title").appendTo(".abstract-custom-caption");
-    $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type .asset-content").appendTo(".abstract-custom-caption");
-    $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type .asset-metadata").appendTo(".abstract-custom-caption");
+        console.log("pagina" + pp);
+        $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type").addClass("main-new");
+        $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type.main-new").prepend("<div class='abstract-custom-caption'></div>");
+        $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type.main-new .asset-actions").appendTo(".abstract-custom-caption");
+        $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type.main-new .asset-title").appendTo(".abstract-custom-caption");
+        $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type.main-new .asset-content").appendTo(".abstract-custom-caption");
+        $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type.main-new .asset-metadata").appendTo(".abstract-custom-caption");
 
-    };
+    }
+
     /*Portlet search This site configuration*/
     $(".portlet-search form select option").each(function(){
     	if($(this).val() != "0")
