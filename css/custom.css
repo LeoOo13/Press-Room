@@ -1137,7 +1137,7 @@ footer .youtube{
     padding: 15px 30px 15px 20px;
 }
 
-.press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type .asset-small-image{
+.press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type.main-new .asset-small-image{
     display: none;
 }
 .press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type .abstract-custom-caption .asset-title{
