@@ -990,6 +990,13 @@ footer .youtube{
 
 
 /********************LIFERAY STYLES***********************/
+.taglib-header{
+    height: 40px;
+    border-bottom: none;
+    border-top: 1px solid #C8C9CA;
+}
+
+
 /*General styles liferay*/
 .portlet{
     background-color: #FFF;
