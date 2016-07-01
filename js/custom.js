@@ -32,7 +32,7 @@ $(document).ready(function(){
 			$(this).parent(".col-sm-3").addClass("active");
 	});
 	/*Asset publisher News behavior */
-    var imageSource = $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type img.asset-small-image").getAttribute("src");
+    var imageSource = $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type img.asset-small-image").attr("src");
     $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type").css("background-image","url('" + imageSource + "')");
 
 
