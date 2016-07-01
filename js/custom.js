@@ -32,12 +32,13 @@ $(document).ready(function(){
 			$(this).parent(".col-sm-3").addClass("active");
 	});
 	/*Asset publisher News behavior */
+    if ($(".active-pagination span").text() == 1) {
     $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type").prepend("<div class='abstract-custom-caption'></div>");
     $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type .asset-actions").appendTo(".abstract-custom-caption");
     $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type .asset-title").appendTo(".abstract-custom-caption");
     $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type .asset-content").appendTo(".abstract-custom-caption");
     $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type .asset-metadata").appendTo(".abstract-custom-caption");
-
+    };
     /*Pagination*/
     var funcion = $(".page-selector .aui-field-input-select").attr("onchange");
     var paginacion = "<div class='pag-num'>";
