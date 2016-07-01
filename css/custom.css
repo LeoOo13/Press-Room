@@ -1115,7 +1115,7 @@ footer .youtube{
 
 .press-news-asset.portlet-asset-publisher .asset-abstract {
     height: auto;
-    min-height: 170px;
+    min-height: 200px;
 }
 
 .press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type.main-new{
@@ -1173,7 +1173,7 @@ footer .youtube{
 
 .press-news-asset.portlet-asset-publisher .asset-small-image img{
     width: 100%;
-    /*height: 160px;*/
+    height: 160px;
 }
 /*Asset publisher Press Release*/
 /*ELIMINAR ESTE SELECTOR*/
@@ -1213,7 +1213,7 @@ footer .youtube{
 .portlet-asset-publisher .asset-title{
     margin: 0;
     padding: 0;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     font-weight: 700;
     font-family: "gothamHTF-bold";
     border-bottom: 0;
