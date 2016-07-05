@@ -169,7 +169,8 @@ a{
 }
 
 .social-counter{
-    margin: 20px 0px;
+    display: inline-block;
+    margin: 20px 15px 20px 0px;
 }
 
 .taglib-social-bookmarks{
@@ -851,7 +852,6 @@ footer .container-fluid{
 }
 .sociales{
     display: inline-block;
-    float: right;
     margin-top: 3%;
 }
 
@@ -1173,7 +1173,7 @@ footer .youtube{
 
 .press-news-asset.portlet-asset-publisher .asset-small-image img{
     width: 100%;
-    height: 160px;
+    max-height: 160px;
 }
 /*Asset publisher Press Release*/
 /*ELIMINAR ESTE SELECTOR*/
@@ -1210,7 +1210,7 @@ footer .youtube{
 
 /*** Sobreescritura de Estilos Liferay ***/
 
-.portlet-asset-publisher .asset-title{
+.portlet-asset-publisher .asset-title {
     margin: 0;
     padding: 0;
     margin-bottom: 20px;
@@ -1221,6 +1221,7 @@ footer .youtube{
 .portlet-asset-publisher .asset-title a,
 .portlet-asset-publisher .asset-title a:hover{
     color: #333;
+    font-family: "gothamHTF-bold";
 }
 .portlet-asset-publisher .asset-title a img{
     display: none;
@@ -1437,3 +1438,8 @@ button#side-menu-toggle:hover {
     margin-top: -80px;
 }
 
+/*Sobreescritura de sliders.css*/
+
+.slider .slides:before{
+    padding-top: 52.99363%;
+}

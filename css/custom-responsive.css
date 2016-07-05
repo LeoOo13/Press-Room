@@ -345,7 +345,7 @@
     }
     
     .banner-wrapper{
-        margin-top: 75px;
+        margin-top: 75px !important;
         margin-bottom: 30px;
     }
     /* ---------------- Img Caption ---------------- */
