@@ -1,4 +1,9 @@
 $(document).ready(function(){
+
+    /*Contenido read more */
+    $('.asset-more a').each(function(){
+        $(this).empty().text("READ MORE >");
+    });
     /*Title sections off Asset publisher*/
     if($('.asset-full-content').length > 0){
         $('.portlet-title-section-on').removeClass('portlet-title-section-on').addClass('portlet-title-section-off');
