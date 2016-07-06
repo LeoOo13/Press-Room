@@ -1003,7 +1003,9 @@
     .press-news-asset .default-asset-publisher{
         margin-top: 10px;
     }
-    .press-news-asset.portlet-asset-publisher .asset-small-image img{
-        width: 150%;
+    .press-news-asset.portlet-asset-publisher .asset-small-image{
+        height: auto;
+        overflow: visible;
     }
+
 }   
