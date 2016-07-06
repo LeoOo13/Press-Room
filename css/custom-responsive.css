@@ -392,6 +392,9 @@
     }
 
     /*Container noticias*/
+    .press-news-asset.portlet-asset-publisher .asset-small-image img{
+        width: 100%;
+    }
 
     .press-news-asset.portlet-asset-publisher .asset-abstract{
         min-height: 195px;
@@ -999,5 +1002,8 @@
     /*Sobreescritura de estilos liferay*/
     .press-news-asset .default-asset-publisher{
         margin-top: 10px;
+    }
+    .press-news-asset.portlet-asset-publisher .asset-small-image img{
+        width: 150%;
     }
 }   

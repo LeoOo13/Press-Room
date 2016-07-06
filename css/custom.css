@@ -1169,10 +1169,12 @@ footer .youtube{
     left: 0;
     width: 33.33333333%;
     padding: 0;
+    height: 160px;
+    overflow: hidden;
 }
 
 .press-news-asset.portlet-asset-publisher .asset-small-image img{
-    width: 100%;
+    width: 150%;
     max-height: 160px;
 }
 /*Asset publisher Press Release*/
