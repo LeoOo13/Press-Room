@@ -545,13 +545,6 @@ position: absolute;
     background-color: transparent;
 }
 
-footer{
-    font-family: 'gotham_lightregular';
-    color: #fff;
-    background-color: #222;
-    padding-top: 0px;
-    padding-bottom: 20px;
-}
 footer .container-fluid{
     max-width: 1366px!important;
 }
@@ -975,8 +968,8 @@ footer{
     font-family: 'gotham_lightregular';
     color: #fff;
     background-color: #222;
-    padding-top: 40px;
-    padding-bottom: 80px;
+    padding-top: 0px;
+    padding-bottom: 20px;
 }
 
 .site-map .site-map-nav-title{
