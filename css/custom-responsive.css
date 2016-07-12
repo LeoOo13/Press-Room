@@ -196,6 +196,26 @@
 
     /*----------------------------- Footer, Map Site, Reservations, Connect------------------------------ */
 
+    /*nav-footer*/
+    .nav_footer ul.navbar-nav {
+        width: 100%;
+        text-align: center;
+        float: none;
+    }
+
+    .nav_footer ul.socialNet{
+        float: none;
+    }
+
+    .nav_footer .navbar-nav>li{
+        float: none;
+        display: inline-block;
+    }
+
+    .nav_footer .navbar-nav>li>a>span{
+        padding: 5px 15px;
+    }
+
     footer{
         font-family: 'gotham_lightregular';
         color: #fff;
@@ -1008,4 +1028,7 @@
         overflow: visible;
     }
 
+    .nav_footer{
+        display: none;
+    }
 }   

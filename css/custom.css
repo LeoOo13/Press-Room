@@ -456,7 +456,7 @@ position: absolute;
 
 .bottom-nav, .bottom-branding {
     margin-top: 20px;
-    border-top: 1px solid #3d3d3d;
+    /*border-top: 1px solid #3d3d3d;*/
     padding: 20px 0 0;
 }
 
@@ -492,17 +492,65 @@ position: absolute;
 
 .bottom-branding ul li:first-child {
     width: 16%;
-    border-right: 1px solid #3d3d3d;
+    border-right: none;
 }
 
 /*----------------------------- Footer, Map Site, Reservations, Connect------------------------------ */
+
+/*Gray navbar footer styles*/
+.nav_footer{
+    background-color: #EAEAEA;
+    padding: 20px 50px;
+}
+.nav_footer .navbar-nav li:last-child{
+    border-left: none;
+    padding-left: 0px;
+}
+.nav_footer .navbar-nav li a{
+    color: #979797;
+    text-shadow:none;
+}
+
+.nav_footer .navbar-nav li a span.active, .nav_footer .navbar-nav li a span:hover{
+    background: none;
+    color: #0B92B1;
+}
+
+.nav_footer ul.socialNet{
+    float: right;
+    margin-top: 15px
+}
+
+.nav_footer ul.socialNet li:first-child{
+    width: auto;
+    padding-right: 15px;
+    border-right: thin solid #7E7E7E;
+}
+
+.nav_footer ul.socialNet li{
+    color: black;
+    font-size: 17px;
+    font-family: "gothamHTF-bold";
+}
+
+.nav_footer .navbar-nav>li>a>span {
+    padding: 5px;
+}
+
+.nav_footer ul.socialNet li a.facebook{
+    background-position: 0%;
+}
+
+.nav_footer ul.socialNet li a:hover{
+    background-color: transparent;
+}
 
 footer{
     font-family: 'gotham_lightregular';
     color: #fff;
     background-color: #222;
-    padding-top: 40px;
-    padding-bottom: 80px;
+    padding-top: 0px;
+    padding-bottom: 20px;
 }
 footer .container-fluid{
     max-width: 1366px!important;
