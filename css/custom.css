@@ -527,20 +527,24 @@ position: absolute;
     text-align: right;
 }
 
+.nav_footer .nav>li>a{
+    opacity: 1;
+}
+
 .nav_footer .nav>li>a.twitter {
-    background-image: url("../images/logos/twitter.png");
+    background-image: url("../images/logos/twitter-b.png");
 }
 
 .nav_footer .nav>li>a.instagram {
-    background-image: url("../images/logos/instagram.png");
+    background-image: url("../images/logos/instagram-b.png");
 }
 
 .nav_footer .nav>li>a.facebook {
-    background-image: url("../images/logos/facebook.png");
+    background-image: url("../images/logos/facebook-b.png");
 }
 
 .nav_footer .nav>li>a.youtube {
-    background-image: url("../images/logos/youtube.png");
+    background-image: url("../images/logos/youtube-b.png");
 }
 
 .nav_footer .socialNet li:nth-child(4) a.youtube{
