@@ -1,7 +1,5 @@
 /* Custom GQ Style overwrite */
-.portlet-title-section-off{
-    display: none;
-}
+
 .portlet-title-section-on{
     display: block;
 }
@@ -521,12 +519,28 @@ position: absolute;
     font-size: 17px;
 }
 
-.socialNet li:first-child{
+.nav_footer .socialNet li:first-child{
     width: 40px;
 }
 
 .nav_footer .contact-navbar{
     text-align: right;
+}
+
+.nav_footer .nav>li>a.twitter {
+    background-image: url("../images/logos/twitter.png");
+}
+
+.nav_footer .nav>li>a.instagram {
+    background-image: url("../images/logos/instagram.png");
+}
+
+.nav_footer .nav>li>a.facebook {
+    background-image: url("../images/logos/facebook.png");
+}
+
+.nav_footer .nav>li>a.youtube {
+    background-image: url("../images/logos/youtube.png");
 }
 
 .nav_footer .socialNet li:nth-child(4) a.youtube{
@@ -1129,7 +1143,7 @@ footer .youtube{
 }
 
 /*Asset Publisher general styles*/
-.press-release-asset .header-title{
+.press-release-asset .header-title,.press-news-asset .header-title, .press-kit-asset .header-title{
     display: none;
 }
 
