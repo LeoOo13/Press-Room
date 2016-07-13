@@ -502,6 +502,33 @@ position: absolute;
     background-color: #EAEAEA;
     padding: 20px 50px;
 }
+
+.nav_footer ul.socialNet{
+    float: right;
+    margin-top: 10px;
+    margin-left: 0;
+}
+.nav_footer #navigation ul{
+    margin: 0;
+}
+.nav_footer .contact-navbar span{
+    display: inline-block;
+    color: #000;
+    padding-right: 15px;
+    border-right: thin solid #7E7E7E;
+    margin-top: 10px;
+    font-family: "gothamHTF-bold";
+    font-size: 17px;
+}
+
+.nav_footer .contact-navbar{
+    text-align: right;
+}
+
+footer .nav_footer .youtube{
+    width:50px;
+}
+
 .nav_footer .navbar-nav li:last-child{
     border-left: none;
     padding-left: 0px;
@@ -516,16 +543,6 @@ position: absolute;
     color: #0B92B1;
 }
 
-.nav_footer ul.socialNet{
-    float: right;
-    margin-top: 15px
-}
-
-.nav_footer ul.socialNet li:first-child{
-    width: auto;
-    padding-right: 15px;
-    border-right: thin solid #7E7E7E;
-}
 
 .nav_footer ul.socialNet li{
     color: black;
