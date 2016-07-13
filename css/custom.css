@@ -521,11 +521,15 @@ position: absolute;
     font-size: 17px;
 }
 
+.socialNet li:first-child{
+    width: 40px;
+}
+
 .nav_footer .contact-navbar{
     text-align: right;
 }
 
-footer .nav_footer .youtube{
+.nav_footer .socialNet li:nth-child(4) a.youtube{
     width:50px;
 }
 

@@ -202,8 +202,12 @@
         text-align: center;
         float: none;
     }
+    .nav_footer .contact-navbar{
+        text-align: center;
+    }
 
     .nav_footer ul.socialNet{
+        display: inline-block;
         float: none;
     }
 
@@ -220,8 +224,6 @@
         font-family: 'gotham_lightregular';
         color: #fff;
         background-color: #222;
-        padding-top: 40px;
-        padding-bottom: 80px;
     }
     footer .container-fluid{
         max-width: 1366px!important;
