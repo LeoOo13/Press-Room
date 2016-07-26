@@ -1,9 +1,9 @@
 $(document).ready(function(){
 
     /*Contenido read more */
-    $('.asset-more a').each(function(){
+    /*$('.asset-more a').each(function(){
         $(this).empty().text("READ MORE >");
-    });
+    });*/
     /*Title sections off Asset publisher*/
     if($('.asset-full-content').length > 0){
         $('.portlet-title-section-on').removeClass('portlet-title-section-on').addClass('portlet-title-section-off');
@@ -78,7 +78,7 @@ $(document).ready(function(){
 
     
     var pp = $(".active-pagination span").text();
-    if ( pp == 1) {
+    if ( pp == 1 && false) {
         var imageSource = $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type img.asset-small-image").attr("src");
         $(".press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type").css("background-image","url('" + imageSource + "')"); 
 
