@@ -971,12 +971,10 @@
         border: none;
     }
 
-    .bottom-nav{
-        display: none;
-    }
-
     .bottom-branding ul li:not(:first-child){
-        display: none;
+        width: 49%;
+        float: none;
+        display: inline-block;
     }
     /*twitter y facebook*/
     .release-kit  .social-counter, .sociales{
