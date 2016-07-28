@@ -734,7 +734,7 @@ footer .container-fluid{
     position: absolute;
     font-size: 12px;
     bottom: 0;
-    padding: 0px 30px 10px 20px;
+    padding: 0px 30px 20px 20px;
 }
 .cuadro-caption h4{
     margin-bottom: 0px;
@@ -1176,7 +1176,8 @@ footer .youtube{
 .press-release-asset.portlet-asset-publisher .asset-abstract,
 .press-news-asset.portlet-asset-publisher .asset-abstract{
     padding: 15px 0px;
-    border-bottom: 1px solid #cecece;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 .press-release-asset.portlet-asset-publisher .asset-content,
 .press-news-asset.portlet-asset-publisher .asset-content{
@@ -1196,6 +1197,10 @@ footer .youtube{
 .press-news-asset.portlet-asset-publisher .asset-abstract {
     height: auto;
     min-height: 200px;
+}
+
+.asset-summary .row{
+    margin: 0;
 }
 
 .press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type.main-new{
@@ -1264,6 +1269,13 @@ footer .youtube{
 }
 
 /*Asset publisher press kit*/
+
+.press-kit-asset .asset-abstract{
+    border-bottom: thin solid #cecece;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
 .press-kit-asset.portlet-asset-publisher .asset-abstract .asset-content{
     margin-left: 0;
 }
