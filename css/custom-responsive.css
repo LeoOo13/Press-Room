@@ -1028,7 +1028,19 @@
         overflow: visible;
     }
 
-    .nav_footer{
-        display: none;
+    .nav_footer .navbar-nav>li{
+        width: 100%;
+    }
+    .nav>li>a{
+        padding: 5px 0px;
     }
 }   
+
+@media(max-width: 449px){
+    .nav_footer .contact-navbar span{
+        border: none;
+    }
+    .nav_footer .contact-navbar span{
+        padding-right: 0px;
+    }
+}
