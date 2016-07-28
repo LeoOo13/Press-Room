@@ -1267,12 +1267,6 @@ footer .youtube{
 
 /*Asset publisher press kit*/
 
-.press-kit-asset .asset-abstract{
-    border-bottom: thin solid #cecece;
-    margin-bottom: 15px;
-    padding-bottom: 5px;
-}
-
 .press-kit-asset.portlet-asset-publisher .asset-abstract .asset-content{
     margin-left: 0;
 }
