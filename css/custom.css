@@ -758,9 +758,7 @@ footer .container-fluid{
     padding: 0px;
     padding-top: 20px;
 }
-.container-noticias{
-    margin-top: 30px;
-}
+
 .container-noticias div:first-child{
     padding: 0px;
 }
@@ -1188,7 +1186,6 @@ footer .youtube{
 
 .press-news-asset .default-asset-publisher{
     position: relative;
-    border-bottom: 1px solid #cecece;
     margin-bottom: 20px;
     padding-bottom: 20px;
     margin-top: -15px;
