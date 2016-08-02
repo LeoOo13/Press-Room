@@ -4,8 +4,8 @@
     display: block;
 }
 
-.portlet-content, 
-.portlet-minimized .portlet-content-container,
+.portlet-content\n 
+.portlet-minimized .portlet-content-container\n
 .portlet-column-content{
     padding: 0; 
 }
@@ -23,12 +23,12 @@
     clear: none;
     background: none;
 }
-#navigation .selected a, 
-#navigation li.hover a, 
-#navigation a:hover, 
-#navigation a:focus, 
-#navigation .child-menu li a, 
-#navigation .yui3-dd-dragging, 
+#navigation .selected a\n 
+#navigation li.hover a\n 
+#navigation a:hover\n 
+#navigation a:focus\n 
+#navigation .child-menu li a\n 
+#navigation .yui3-dd-dragging\n 
 .lfr-navigation-proxy{
     background: none;
     text-shadow: none;
@@ -98,14 +98,14 @@ a{
     vertical-align: middle;
 }
 
-.nav.navbar-nav.navbar-right,
+.nav.navbar-nav.navbar-right\n
 #navigation ul{
     margin: 10px 0 0;
 }
 .nav.navbar-nav.navbar-right>li>a{
     color: #fff;
 }
-.nav.navbar-nav.navbar-right>li>a>span:hover, .nav.navbar-nav.navbar-right>li>a>span:focus{
+.nav.navbar-nav.navbar-right>li>a>span:hover\n .nav.navbar-nav.navbar-right>li>a>span:focus{
     color: #0B92B1;
     background-color: #222222;
 }
@@ -137,13 +137,19 @@ a{
     font-size: 10px;
 }
 
+.navbar-nav li .phone-contact + p > a{
+    color: #FFF;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
 .navbar-wrapper .navbar{
     background: #000;
     margin-left: -15px;
     margin-right: -15px;
 }
 
-.navbar-wrapper .navbar .phone-contact,.navbar-nav .phone-contact + p{
+.navbar-wrapper .navbar .phone-contact\n.navbar-nav .phone-contact + p{
     position: initial;
     margin: 0;
 }
@@ -202,7 +208,7 @@ a{
     margin-top: 0px;
 }
 
-.press h4, .press small{
+.press h4\n .press small{
     font-weight: 700;
 }
 
@@ -316,7 +322,7 @@ li h3{
     font-weight: 600;        
 }
 
-.nav-links>li>a:focus, .nav-links>li>a:hover {
+.nav-links>li>a:focus\n .nav-links>li>a:hover {
     text-decoration: none;
     background-color: #1F33B5;
     color: #FFF;
@@ -345,7 +351,7 @@ li h3{
     color: #fff;
     margin-left: -20px;
 }
-.suscribe-newsletter .form-group.vidanta-select, .vidanta-select {
+.suscribe-newsletter .form-group.vidanta-select\n .vidanta-select {
     position: relative;
 }
 
@@ -417,7 +423,7 @@ li h3{
     padding-left: 50px;
 }
 
-.site-map ul, .site-map h4{
+.site-map ul\n .site-map h4{
     text-align: left;
 }
 
@@ -452,7 +458,7 @@ position: absolute;
     border-top: 1px solid #3d3d3d;
 }
 
-.bottom-nav, .bottom-branding {
+.bottom-nav\n .bottom-branding {
     margin-top: 20px;
     /*border-top: 1px solid #3d3d3d;*/
     padding: 20px 0 0;
@@ -493,7 +499,7 @@ position: absolute;
     border-right: none;
 }
 
-/*----------------------------- Footer, Map Site, Reservations, Connect------------------------------ */
+/*----------------------------- Footer\n Map Site\n Reservations\n Connect------------------------------ */
 
 /*Gray navbar footer styles*/
 .nav_footer{
@@ -560,7 +566,7 @@ position: absolute;
     text-shadow:none;
 }
 
-.nav_footer .navbar-nav li a span.active, .nav_footer .navbar-nav li a span:hover{
+.nav_footer .navbar-nav li a span.active\n .nav_footer .navbar-nav li a span:hover{
     background: none;
     color: #0B92B1;
 }
@@ -611,16 +617,16 @@ footer .container-fluid{
 .site-map .active .nav{
     display: block;
 }
-.site-map .nav>li>a,
+.site-map .nav>li>a\n
 .reservations address a{
     font-size: 10pt;
     color: #ccc;
     padding: 3px 0;
 }
 
-.site-map .nav > li > a:hover,
-.site-map .nav > li > a:focus,
-.reservations address a:hover,
+.site-map .nav > li > a:hover\n
+.site-map .nav > li > a:focus\n
+.reservations address a:hover\n
 .reservations address a:focus{
     color: #fff;
     background-color: transparent;
@@ -658,7 +664,7 @@ footer .container-fluid{
     opacity: 0.8;
     filter: alpha(opacity=80);
 }
-.footer-connect .nav > li > a:hover,
+.footer-connect .nav > li > a:hover\n
 .footer-connect .nav > li > a:focus{
     background-color: transparent;
     opacity: 1;
@@ -685,7 +691,7 @@ footer .container-fluid{
 .cuadro-banner{
     text-transform: uppercase;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0\n 0\n 0\n 0.75);
     position: absolute;
     font-size: 22px;
     text-align: center;
@@ -693,7 +699,7 @@ footer .container-fluid{
     top: 45%;
     padding: 15px 20px;
 }
-.cuadro-banner p, .cuadro-banner h3{
+.cuadro-banner p\n .cuadro-banner h3{
     margin: 0;
     text-align: left;
 }
@@ -730,7 +736,7 @@ footer .container-fluid{
 .cuadro-caption{
     width: 100%;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0\n 0\n 0\n 0.75);
     position: absolute;
     font-size: 12px;
     bottom: 0;
@@ -775,7 +781,7 @@ footer .container-fluid{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.paginacion, .btn-blue, .paginacion-next, .previous, .next{
+.paginacion\n .btn-blue\n .paginacion-next\n .previous\n .next{
     background-color: #00159b;
     color: #fff;
     padding: 9px;
@@ -809,7 +815,7 @@ footer .container-fluid{
 }
 
 
-.arrow, .download{
+.arrow\n .download{
     width: 32px;
     height: 32px;
     background-color: #293cb6;
@@ -838,7 +844,7 @@ footer .container-fluid{
     margin: 0 3px 15px 0;
 }
 
-.paginacion-next, .next{
+.paginacion-next\n .next{
     width: 75px;
     display: inline-block;
     padding: 5px 20px 5px 0;
@@ -862,7 +868,7 @@ footer .container-fluid{
     background-position: 5% 50%;
 }
 
-.previous:hover, .next:hover{
+.previous:hover\n .next:hover{
     color: #FFF;
     text-decoration:none;
 }
@@ -873,7 +879,7 @@ footer .container-fluid{
 
 
 
-.paginacion:hover, .paginacion-next:hover{
+.paginacion:hover\n .paginacion-next:hover{
     background-color: #07a5c9;
     color: #fff;
     text-decoration: none;
@@ -888,13 +894,17 @@ footer .container-fluid{
     color: #07a5c9;
     margin-top: -5px;
 }
+
+.container-contact .contact-email a{
+    font-weight: normal;
+}
 /* ---------------- About Vidanta ---------------- */
 .cuadro-informativo{
     background-color: #00159b;
     color: #fff;
     margin-bottom: 20px;
 }
-.cuadro-informativo h4, .cuadro-informativo p{
+.cuadro-informativo h4\n .cuadro-informativo p{
     padding: 10px;
     margin-bottom: 0px;
 }
@@ -937,15 +947,15 @@ footer .container-fluid{
 
 /******************MOBILE STYLES**************************/
 /*general styles*/
-*, .navbar-nav p, .container-contact h3{
+*\n .navbar-nav p\n .container-contact h3{
     font-family: "gothamHTF-book";
 }
 
-h3, h1, .cuadro-informativo p, .nav-links li a, .titulo-section, .slide-content-text{
+h3\n h1\n .cuadro-informativo p\n .nav-links li a\n .titulo-section\n .slide-content-text{
     font-family: "gothamHTF-light";
 }
 
-.cuadro-baner p, .navbar-nav span, .phone-contact, .cuadro-informativo h4, .socialNet li p, .nav-links li h3, .fecha, h4, .link, .btn-blue span, .contact p:first-child{
+.cuadro-baner p\n .navbar-nav span\n .phone-contact\n .cuadro-informativo h4\n .socialNet li p\n .nav-links li h3\n .fecha\n h4\n .link\n .btn-blue span\n .contact p:first-child{
     font-family: "gothamHTF-bold";
 }
 
@@ -960,7 +970,7 @@ footer .reservations .booking h1{
     font-size: 16pt;
 }
 
-footer .reservations .booking a, footer address{
+footer .reservations .booking a\n footer address{
     font-family: "gotham_mediumregular";
     font-weight: normal;
 }
@@ -973,7 +983,7 @@ footer .reservations .booking a, footer address{
 .stay-connected-container .nav-social{
     padding: 0 15px;
 }
-.twitter, .instagram, .facebook, .youtube{
+.twitter\n .instagram\n .facebook\n .youtube{
     height: 20px;
     background-position: 50% 50%;
     background-size: contain;
@@ -1029,7 +1039,7 @@ footer{
     font-family: 'gotham_mediumregular';
     font-size: 16pt;
 }
-footer .facebook, footer .twitter, footer .youtube, footer .instagram {
+footer .facebook\n footer .twitter\n footer .youtube\n footer .instagram {
   height: 14px;
   background-size: auto 100%;
   background-position: 50%;
@@ -1044,7 +1054,7 @@ footer .nav-social li a{
     height: 20px;
 }
 
-footer .instagram, footer .facebook{
+footer .instagram\n footer .facebook{
     width: 20px;
 }
 
@@ -1056,7 +1066,7 @@ footer .youtube{
     width: 50px;
 }
 
-.fb-share-button iframe, .fb-share-button span{
+.fb-share-button iframe\n .fb-share-button span{
     width: 60px !important;
     height: 20px !important;
     margin-top: -5px;
@@ -1064,6 +1074,23 @@ footer .youtube{
 
 .fb-share-button {
     top: 0 !important;
+}
+
+/*Sitemap styles*/
+.container-sitemap .titulo-press{
+    margin-bottom: 5px;
+}
+.container-sitemap ul.siteItems{
+    list-style: none;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.container-sitemap ul.siteItems>li{
+    padding: 5px 0;
+}
+.container-sitemap ul.siteItems>li>a{
+    color: #676767;
 }
 
 
@@ -1145,7 +1172,7 @@ footer .youtube{
 }
 
 /*Asset Publisher general styles*/
-.press-release-asset .header-title,.press-news-asset .header-title, .press-kit-asset .header-title{
+.press-release-asset .header-title\n.press-news-asset .header-title\n .press-kit-asset .header-title{
     display: none;
 }
 
@@ -1171,13 +1198,13 @@ footer .youtube{
     text-decoration: initial;
     display: inline-block;
 }
-.press-release-asset.portlet-asset-publisher .asset-abstract,
+.press-release-asset.portlet-asset-publisher .asset-abstract\n
 .press-news-asset.portlet-asset-publisher .asset-abstract{
     padding: 15px 0px;
     padding-bottom: 0;
     margin-bottom: 0;
 }
-.press-release-asset.portlet-asset-publisher .asset-content,
+.press-release-asset.portlet-asset-publisher .asset-content\n
 .press-news-asset.portlet-asset-publisher .asset-content{
     margin: 0;
 }
@@ -1212,7 +1239,7 @@ footer .youtube{
 .press-news-asset.press-news-asset-home .portlet-body > .asset-abstract:first-of-type.main-new .abstract-custom-caption{
     width: 100%;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0\n 0\n 0\n 0.75);
     position: absolute;
     font-size: 12px;
     bottom: 0;
@@ -1261,7 +1288,7 @@ footer .youtube{
 }
 /*Asset publisher Press Release*/
 /*ELIMINAR ESTE SELECTOR*/
-.press-release-asset .asset-small-image, .press-kit-asset .asset-small-image{
+.press-release-asset .asset-small-image\n .press-kit-asset .asset-small-image{
     display: none;
 }
 
@@ -1288,7 +1315,7 @@ footer .youtube{
 }
 
 /*Asset publisher full content*/
-.press-kit-asset.portlet-asset-publisher .asset-full-content .asset-content,
+.press-kit-asset.portlet-asset-publisher .asset-full-content .asset-content\n
 .press-news-asset.portlet-asset-publisher .asset-full-content .asset-content{
     margin: 0px;
 }
@@ -1303,7 +1330,7 @@ footer .youtube{
     font-family: "gothamHTF-bold";
     border-bottom: 0;
 }
-.portlet-asset-publisher .asset-title a,
+.portlet-asset-publisher .asset-title a\n
 .portlet-asset-publisher .asset-title a:hover{
     color: #333;
     font-family: "gothamHTF-bold";
@@ -1378,7 +1405,7 @@ div#column-1 > div.portlet-search form .aui-fieldset {
     border-bottom: thin solid #cecece;
     margin-bottom: 1em;
 }
-div#column-1 > div.portlet-search form .aui-fieldset-content span:nth-child(3) input[type="image"],
+div#column-1 > div.portlet-search form .aui-fieldset-content span:nth-child(3) input[type="image"]\n
 div#column-1 > div.portlet-search form .aui-fieldset-content span:nth-child(4) input[type="image"]{
     margin-top: 0;
     position: absolute;
@@ -1441,7 +1468,7 @@ line-height: normal;
 }
 
 .highlight{
-background-color: rgba(50, 161, 189, 0.20);
+background-color: rgba(50\n 161\n 189\n 0.20);
    font-family: "gothamHTF-bold";
 }
 
@@ -1464,7 +1491,7 @@ background-color: rgba(50, 161, 189, 0.20);
    margin-bottom:25px;
 }
 
-.taglib-search-iterator .results-header, .asset-entry-type, .lfr-template{
+.taglib-search-iterator .results-header\n .asset-entry-type\n .lfr-template{
    display:none !important;
 }
 
