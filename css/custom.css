@@ -1172,7 +1172,7 @@ footer .youtube{
 }
 
 /*Asset Publisher general styles*/
-.press-release-asset .header-title,.press-news-asset .header-title, .press-kit-asset .header-title{
+.portlet-asset-publisher .taglib-header {
     display: none;
 }
 
