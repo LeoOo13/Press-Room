@@ -420,6 +420,7 @@
 
     .press-news-asset.portlet-asset-publisher .asset-abstract{
         min-height: 195px;
+        padding-top: 0px;
     }
 
     /* ---------------- Summary ---------------- */
@@ -885,6 +886,29 @@
         letter-spacing: 0px;
     }
 
+    .titulo-press{
+        margin-bottom: 10px;
+    }
+
+    /*summary*/
+
+    .container-noticias{
+        margin-top: 0px;
+    }
+
+    .portlet-title-section-on{
+        margin-top: 20px;
+    }
+
+    small.fecha{
+        margin-bottom: 10px;
+    }
+
+    /*contenido desplegado*/
+    .titulo-section .fecha {
+        margin-bottom: 15px;
+    }
+
     /*Topics component*/
 
     .stay-connected-container .portlet{
@@ -924,6 +948,7 @@
     .cuadro-caption{
         position: initial;
         padding: 10px 15px;
+        padding-bottom: 25px;
         background-color: #222;
     }
     
@@ -956,6 +981,14 @@
     .container-contact h3{
         font-size: 20px;
     }
+
+    /*menu lateral*/
+    .link-white{
+        color: #FFF;
+        font-weight: normal;
+        text-decoration: underline;
+    }
+
     /*Foto lateral - About*/
     .text-description{
         padding: 0px;
@@ -1017,6 +1050,10 @@
         top: -18px;
         left: 50%;
         margin-left: -30px;
+    }
+
+    .bottom-branding ul li:nth-child(4) img {
+        margin-bottom: 0px;
     }
 
     /*Sobreescritura de estilos liferay*/
