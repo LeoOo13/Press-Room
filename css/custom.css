@@ -1504,6 +1504,7 @@ background-color: rgba(50, 161, 189, 0.20);
 .stay-connected-container ul.nav.nav-social {
     margin: 0;
     text-align: center;
+    padding-left: 0;
 }
 
 .stay-connected-container .nav>li>a.facebook{

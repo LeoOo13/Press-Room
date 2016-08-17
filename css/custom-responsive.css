@@ -956,6 +956,9 @@
     .container-contact h3{
         font-size: 20px;
     }
+    .container-contact .contact-email{
+        font-weight: normal;
+    }
     /*Foto lateral - About*/
     .text-description{
         padding: 0px;
