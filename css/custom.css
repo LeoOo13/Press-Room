@@ -263,14 +263,14 @@ a{
     background-color: white;
 }
 
-.socialNet li:first-child{
+.title-connect{
     width: 100%;
     text-align: center;
     font-size: 15px;
     font-weight: 900;
 }
 
-.socialNet li:nth-child(4) a{
+.socialNet li:nth-child(3) a{
     width: 100%;
     margin-right: 0px;
 }
