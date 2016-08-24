@@ -980,9 +980,11 @@ footer .reservations .booking a, footer address{
     background-color: #EAEAEA;
     padding: 15px 20px;
 }
+/*
 .stay-connected-container .nav-social{
     padding: 0 15px;
-}
+}*/
+
 .twitter, .instagram, .facebook, .youtube{
     height: 20px;
     background-position: 50% 50%;
