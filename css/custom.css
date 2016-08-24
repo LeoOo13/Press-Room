@@ -1507,6 +1507,7 @@ background-color: rgba(50, 161, 189, 0.20);
     margin: 0;
     text-align: center;
     padding-left: 0;
+    padding-right: 11px;
 }
 
 .stay-connected-container .nav>li>a.facebook{
