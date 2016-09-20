@@ -263,14 +263,14 @@ a{
     background-color: white;
 }
 
-.title-connect{
+.socialNet li:first-child{
     width: 100%;
     text-align: center;
     font-size: 15px;
     font-weight: 900;
 }
 
-.socialNet li:nth-child(3) a{
+.socialNet li:nth-child(4) a{
     width: 100%;
     margin-right: 0px;
 }
@@ -980,11 +980,9 @@ footer .reservations .booking a, footer address{
     background-color: #EAEAEA;
     padding: 15px 20px;
 }
-
 .stay-connected-container .nav-social{
-    padding-right: 11px;
+    padding: 0 15px;
 }
-
 .twitter, .instagram, .facebook, .youtube{
     height: 20px;
     background-position: 50% 50%;
@@ -1159,6 +1157,7 @@ footer .youtube{
 }
 
 .tag-items li > span a{
+    text-transform:capitalize;
     display: inline-block !important;
     padding: 5px 10px !important;
     margin: 5px;
@@ -1506,7 +1505,6 @@ background-color: rgba(50, 161, 189, 0.20);
     margin: 0;
     text-align: center;
     padding-left: 0;
-    padding-right: 11px;
 }
 
 .stay-connected-container .nav>li>a.facebook{
