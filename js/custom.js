@@ -3,7 +3,7 @@ $(document).ready(function(){
     /*Topics*/
     $("li[class^='tag-popularity'] strong").each(function(){
         var pal = $(this).css("text-transform","capitalize").text();
-        $(this).attr("value") = "";
+        $(this).attr("value","");
         var palabras = pal.split(" ");
         for( var i = 0; i < palabras.length; i++){
             for(var j = 0; j < prep.length; j++){
