@@ -1,4 +1,22 @@
 $(document).ready(function(){
+    var prep = ["And", "At"];
+    /*Topics*/
+    $("li[class^='tag-popularity'] strong").each(function(){
+        var pal = $(this).css("text-transform","capitalize").text();
+        $(this).text("");
+        var palabras = pal.split(" ");
+        var palabras
+        for( var i = 0; i < palabras.length; i++){
+            for(var j = 0; j < prep.length; j++){
+                if(prep[j] != palabras[i]){}
+                    $(this).text($(this).text() + palabras[i] + " ");
+                else
+                    $(this).text($(this).text() + palabras[i].toLowerCase() + " "); 
+
+            }
+        }
+    });
+
 
     /*Contenido read more */
     $('.asset-more a').each(function(){

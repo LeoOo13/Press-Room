@@ -696,7 +696,7 @@ footer .container-fluid{
     font-size: 22px;
     text-align: center;
     left: 5%;
-    top: 45%;
+    top: 48%;
     padding: 15px 20px;
 }
 .cuadro-banner p, .cuadro-banner h3{
@@ -1159,7 +1159,6 @@ footer .youtube{
 }
 
 .tag-items li > span a{
-    text-transform:capitalize;
     display: inline-block !important;
     padding: 5px 10px !important;
     margin: 5px;
