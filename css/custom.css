@@ -263,13 +263,19 @@ a{
     background-color: white;
 }
 
+.title-connect{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+}
+/* stay connect
 .socialNet li:first-child{
     width: 100%;
     text-align: center;
     font-size: 15px;
     font-weight: 900;
 }
-
+*/
 .socialNet li:nth-child(4) a{
     width: 100%;
     margin-right: 0px;
