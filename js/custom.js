@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var prep = ["and", "at"];
+    var prep = ["and", "at", "du"];
     var joya = "JOYÀ"
     /*Topics*/
     $("li[class^='tag-popularity'] strong").each(function(){
