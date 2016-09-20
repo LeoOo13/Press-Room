@@ -1157,7 +1157,7 @@ footer .youtube{
 }
 
 .tag-items li > span a{
-    text-transform:capitalize;
+    
     display: inline-block !important;
     padding: 5px 10px !important;
     margin: 5px;
