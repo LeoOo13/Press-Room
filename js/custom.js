@@ -1,19 +1,24 @@
 $(document).ready(function(){
-    var prep = ["And", "At"];
+    var prep = ["and", "at"];
     /*Topics*/
     $("li[class^='tag-popularity'] strong").each(function(){
-        var pal = $(this).css("text-transform","capitalize").text();
-        $(this).replaceWith("");
+        var pal = $(this).text();
         var palabras = pal.split(" ");
+        var cadena = "";
+        var aux="";
         for( var i = 0; i < palabras.length; i++){
             for(var j = 0; j < prep.length; j++){
+                console.log(prep[j] + " / " + palabras[i] + " / " + (prep[j] != palabras[i]));
                 if(prep[j] != palabras[i])
-                    $(this).text($(this).text() + palabras[i] + " ");
-                else
-                    $(this).text($(this).text() + palabras[i].toLowerCase() + " "); 
-
+                    aux = palabras[i].charAt(0).toUpperCase()+ palabras[i].slice(1);
+                else{
+                    aux = palabras[i].toLowerCase();
+                    break; 
+                }
             }
+            cadena = cadena + " " + aux;
         }
+      $(this).replaceWith("<strong>" + cadena + "</strong>");
     });
 
 
