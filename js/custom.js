@@ -1,5 +1,6 @@
 $(document).ready(function(){
     var prep = ["and", "at"];
+    var joya = "JOYÀ"
     /*Topics*/
     $("li[class^='tag-popularity'] strong").each(function(){
         var pal = $(this).text();
@@ -10,7 +11,10 @@ $(document).ready(function(){
             for(var j = 0; j < prep.length; j++){
                 console.log(prep[j] + " / " + palabras[i] + " / " + (prep[j] != palabras[i]));
                 if(prep[j] != palabras[i])
-                    aux = palabras[i].charAt(0).toUpperCase()+ palabras[i].slice(1);
+                    if(palabras[i] != "joyà")
+                        aux = palabras[i].charAt(0).toUpperCase()+ palabras[i].slice(1);
+                    else
+                        aux="JOYÀ";
                 else{
                     aux = palabras[i].toLowerCase();
                     break; 
