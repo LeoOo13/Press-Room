@@ -779,7 +779,7 @@
 
     .sociales{
         margin-top: 0px;
-        float: left;
+        float: none;
     }
     /*iframe twitter*/
     iframe#twitter-widget-2, iframe#twitter-widget-4 {
