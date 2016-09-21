@@ -682,6 +682,19 @@
         margin: 0 10px;
     }
 
+    .menu-lateral .socialNet ul.nav-social{
+        width: 150px;
+        margin: 0 auto;
+    }
+
+    .menu-lateral .socialNet ul.nav-social li:first-child{
+        width: 100%;
+    }
+
+    .menu-lateral .socialNet ul.nav-social li:first-child p{
+        text-align: center;
+    }
+
     .menu-lateral .input-search{
         background: inherit;
     }
