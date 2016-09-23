@@ -9,7 +9,6 @@ $(document).ready(function(){
         var aux="";
         for( var i = 0; i < palabras.length; i++){
             for(var j = 0; j < prep.length; j++){
-                console.log(prep[j] + " / " + palabras[i] + " / " + (prep[j] != palabras[i]));
                 if(prep[j] != palabras[i])
                     if(palabras[i] != "joyà")
                         aux = palabras[i].charAt(0).toUpperCase()+ palabras[i].slice(1);
