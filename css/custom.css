@@ -1178,6 +1178,25 @@ footer .youtube{
 }
 
 /*Asset Publisher general styles*/
+
+.taglib-categorization-filter.entry-title{
+	font-size: 16px;
+    font-family: "gothamHTF-bold";
+}
+
+.taglib-categorization-filter.entry-title .asset-entry{
+	background-color: transparent;
+    border: none;
+    font-family: "gothamHTF-bold";
+    font-style: normal;
+    padding: 0px;
+    margin: 0px;
+}
+
+.taglib-categorization-filter.entry-title .asset-entry a{
+    display: none;
+}
+
 .portlet-asset-publisher .taglib-header {
     display: none;
 }
