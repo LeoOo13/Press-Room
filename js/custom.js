@@ -128,7 +128,7 @@ $(document).ready(function(){
     /*topics filter*/
     if($("h1.taglib-categorization-filter .asset-entry").length){
         var currTopic = $("h1.taglib-categorization-filter .asset-entry").text();
-        currTopic = "\"" + currTopic + "\"";
+        currTopic = "\"" + currTopic.trim() + "\"";
          $("h1.taglib-categorization-filter .asset-entry").html(currTopic);
     }
     
