@@ -1171,7 +1171,7 @@ footer .youtube{
     font-family: "gothamHTF-light";
 }
 
-.tag-items li > span a:hover{
+.tag-items li > span a:hover, .tag-list .tag-selected{
     text-decoration: none;
     background-color: #1F33B5;
     color: #FFF;
