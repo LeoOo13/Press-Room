@@ -125,12 +125,15 @@ $(document).ready(function(){
     		$(this).removeAttr("selected");
 	});
 
-    /*topics filter
+    /*topics filter*/
     if($("h1.taglib-categorization-filter .asset-entry").length){
         var currTopic = $("h1.taglib-categorization-filter .asset-entry").text();
+        var eliminar = $("h1.taglib-categorization-filter .asset-entry a")
         currTopic = "\"" + currTopic.trim() + "\"";
          $("h1.taglib-categorization-filter .asset-entry").html(currTopic);
-    }*/
+         $("h1.taglib-categorization-filter .asset-entry").append(eliminar);
+
+    }
     
 
 });
