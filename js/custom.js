@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    Liferay.Portlet.refresh('.portlet-asset-publisher');
     var prep = ["and", "at", "du"];
     var joya = "JOYÀ"
     /*Topics*/
